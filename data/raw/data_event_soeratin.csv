@@ -1,0 +1,825 @@
+﻿id_event;nama_event;tanggal_mulai;tanggal_selesai;nama_venue;level_event;peserta_tim;hasil_skor;sumber
+SOERATIN-U17-001;Piala Soeratin U-17;03/12/2023;03/12/2023;Stadion Canda Bhirawa;;Deltras Sidoarjo U-17 VS Persedikab Kediri U-17;00:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-002;Piala Soeratin U-17;03/12/2023;03/12/2023;Stadion Canda Bhirawa;;Sinar Harapan U-17 VS Perseta Tulungagung U-17;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-003;Piala Soeratin U-17;01/12/2023;01/12/2023;Stadion Canda Bhirawa;;Perseta Tulungagung U-17 VS Persedikab Kediri U-17;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-004;Piala Soeratin U-17;01/12/2023;01/12/2023;Stadion Canda Bhirawa;;Deltras Sidoarjo U-17 VS Sinar Harapan U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-005;Piala Soeratin U-17;27/11/2023;27/11/2023;Stadion Soeprijadi Blitar;;PSBR Kota Blitar U-17 VS NZR Sumbersari U-17;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-006;Piala Soeratin U-17;27/11/2023;27/11/2023;Stadion Jenggolo Sidoarjo;;Sinar Harapan U-17 VS PSMP Mojokerto U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-007;Piala Soeratin U-17;27/11/2023;27/11/2023;Stadion Soeprijadi Blitar;;Arema FC U-17 VS Perseta Tulungagung U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-008;Piala Soeratin U-17;27/11/2023;27/11/2023;Stadion Jenggolo Sidoarjo;;Persebaya Surabaya U-17 VS Deltras Sidoarjo U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-009;Piala Soeratin U-17;25/11/2023;25/11/2023;Stadion Jenggolo Sidoarjo;;Deltras Sidoarjo U-17 VS Persikoba Batu U-17;04:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-010;Piala Soeratin U-17;25/11/2023;25/11/2023;Stadion Soeprijadi Blitar;;Perseta Tulungagung U-17 VS Persipro 1954 U-17;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-011;Piala Soeratin U-17;25/11/2023;25/11/2023;Stadion Soeprijadi Blitar;;NZR Sumbersari U-17 VS Persedikab Kediri U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-012;Piala Soeratin U-17;25/11/2023;25/11/2023;Stadion Jenggolo Sidoarjo;;PSMP Mojokerto U-17 VS Persegres Putra U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-013;Piala Soeratin U-17;24/11/2023;24/11/2023;Stadion Jenggolo Sidoarjo;;Persegres Putra U-17 VS Sinar Harapan U-17;02:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-014;Piala Soeratin U-17;24/11/2023;24/11/2023;Stadion Soeprijadi Blitar;;Persedikab Kediri U-17 VS PSBR Kota Blitar U-17;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-015;Piala Soeratin U-17;24/11/2023;24/11/2023;Stadion Soeprijadi Blitar;;Persipro 1954 U-17 VS Arema FC U-17;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-016;Piala Soeratin U-17;24/11/2023;24/11/2023;Stadion Jenggolo Sidoarjo;;Persikoba Batu U-17 VS Persebaya Surabaya U-17;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-017;Piala Soeratin U-17;20/11/2023;20/11/2023;Lapangan Brigif 2 Marinir SDA;;Arema FC U-17 VS Inter Kediri U-17;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-018;Piala Soeratin U-17;20/11/2023;20/11/2023;Lapangan Brigif 2 Marinir SDA;;Persebo Muda 1964 U-17 VS Deltras Sidoarjo U-17;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-019;Piala Soeratin U-17;19/11/2023;19/11/2023;Lapangan Brigif 2 Marinir SDA;;Arema FC U-17 VS Persebo Muda 1964 U-17;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-020;Piala Soeratin U-17;19/11/2023;19/11/2023;Lapangan Brigif 2 Marinir SDA;;Inter Kediri U-17 VS Deltras Sidoarjo U-17;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-021;Piala Soeratin U-17;18/11/2023;18/11/2023;Stadion Soeprijadi Blitar;;Bojonegoro FC U-17 VS PSMP Mojokerto U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-022;Piala Soeratin U-17;18/11/2023;18/11/2023;Lapangan Brigif Marinir SDA;;Naga Emas Asri U-17 VS Persiga Trenggalek U-17;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-023;Piala Soeratin U-17;18/11/2023;18/11/2023;Lapangan Agro Kota Batu;;PSPK Jember U-17 VS Bajul Ijo U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-024;Piala Soeratin U-17;18/11/2023;18/11/2023;Stadion Canda Bhirawa;;Persid Jember U-17 VS Persegres Putra U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-025;Piala Soeratin U-17;18/11/2023;18/11/2023;Stadion Canda Bhirawa;;Persedikab Kediri U-17 VS Madiun Putra U-17;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-026;Piala Soeratin U-17;18/11/2023;18/11/2023;Lapangan Brigif Marinir SDA;;Persipro 1954 U-17 VS Persebaya Surabaya U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-027;Piala Soeratin U-17;18/11/2023;18/11/2023;Lapangan Agro Kota Batu;;Persikoba Batu U-17 VS NZR Sumbersari U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-028;Piala Soeratin U-17;18/11/2023;18/11/2023;Stadion Soeprijadi Blitar;;PSBR Kota Blitar U-17 VS Bhayangkara FC U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-029;Piala Soeratin U-17;18/11/2023;18/11/2023;Stadion Surajaya Lamongan;;Perseta Tulungagung U-17 VS Persekap Pasuruan U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-030;Piala Soeratin U-17;18/11/2023;18/11/2023;Stadion Surajaya Lamongan;;Persela Lamongan U-17 VS Sinar Harapan U-17;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-031;Piala Soeratin U-17;17/11/2023;17/11/2023;Lapangan Agro Kota Batu;;PSPK Jember U-17 VS Persikoba Batu U-17;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-032;Piala Soeratin U-17;17/11/2023;17/11/2023;Lapangan Brigif 2 Marinir SDA;;Deltras Sidoarjo U-17 VS Arema FC U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-033;Piala Soeratin U-17;17/11/2023;17/11/2023;Lapangan Agro Kota Batu;;Bajul Ijo U-17 VS NZR Sumbersari U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-034;Piala Soeratin U-17;17/11/2023;17/11/2023;Lapangan Brigif 2 Marinir SDA;;Persebo Muda 1964 U-17 VS Inter Kediri U-17;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-035;Piala Soeratin U-17;16/11/2023;16/11/2023;Lapangan Brigif Marinir SDA;;Naga Emas Asri U-17 VS Persipro 1954 U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-036;Piala Soeratin U-17;16/11/2023;16/11/2023;Stadion Canda Bhirawa;;Persid Jember U-17 VS Persedikab Kediri U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-037;Piala Soeratin U-17;16/11/2023;16/11/2023;Stadion Surajaya Lamongan;;Perseta Tulungagung U-17 VS Persela Lamongan U-17;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-038;Piala Soeratin U-17;16/11/2023;16/11/2023;Stadion Soeprijadi Blitar;;Bojonegoro FC U-17 VS PSBR Kota Blitar U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-039;Piala Soeratin U-17;16/11/2023;16/11/2023;Stadion Canda Bhirawa;;Persegres Putra U-17 VS Madiun Putra U-17;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-040;Piala Soeratin U-17;16/11/2023;16/11/2023;Lapangan Brigif Marinir SDA;;Persiga Trenggalek U-17 VS Persebaya Surabaya U-17;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-041;Piala Soeratin U-17;16/11/2023;16/11/2023;Stadion Surajaya Lamongan;;Persekap Pasuruan U-17 VS Sinar Harapan U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-042;Piala Soeratin U-17;16/11/2023;16/11/2023;Stadion Soeprijadi Blitar;;PSMP Mojokerto U-17 VS Bhayangkara FC U-17;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-043;Piala Soeratin U-17;15/11/2023;15/11/2023;Lapangan Brigif Marinir SDA;;Persebaya Surabaya U-17 VS Naga Emas Asri U-17;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-044;Piala Soeratin U-17;15/11/2023;15/11/2023;Stadion Soeprijadi Blitar;;Bhayangkara FC U-17 VS Bojonegoro FC U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-045;Piala Soeratin U-17;15/11/2023;15/11/2023;Lapangan Agro Kota Batu;;NZR Sumbersari U-17 VS PSPK Jember U-17;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-046;Piala Soeratin U-17;15/11/2023;15/11/2023;Stadion Canda Bhirawa;;Madiun Putra U-17 VS Persid Jember U-17;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-047;Piala Soeratin U-17;15/11/2023;15/11/2023;Stadion Surajaya Lamongan;;Sinar Harapan U-17 VS Perseta Tulungagung U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-048;Piala Soeratin U-17;15/11/2023;15/11/2023;Lapangan Agro Kota Batu;;Persikoba Batu U-17 VS Bajul Ijo U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-049;Piala Soeratin U-17;15/11/2023;15/11/2023;Stadion Canda Bhirawa;;Persedikab Kediri U-17 VS Persegres Putra U-17;06:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-050;Piala Soeratin U-17;15/11/2023;15/11/2023;Lapangan Brigif Marinir SDA;;Persipro 1954 U-17 VS Persiga Trenggalek U-17;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-051;Piala Soeratin U-17;15/11/2023;15/11/2023;Stadion Surajaya Lamongan;;Persela Lamongan U-17 VS Persekap Pasuruan U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-052;Piala Soeratin U-17;15/11/2023;15/11/2023;Stadion Soeprijadi Blitar;;PSBR Kota Blitar U-17 VS PSMP Mojokerto U-17;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-053;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Surajaya Lamongan;;Bojonegoro FC U-17 VS Hizbul Wathan U-17;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-054;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Brawijaya Kediri;;NZR Sumbersari U-17 VS Mitra Bola Utama U-17;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-055;Piala Soeratin U-17;11/11/2023;11/11/2023;Lapangan Agro Kota Batu;;Persekam Metro U-17 VS PSBI Blitar U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-056;Piala Soeratin U-17;11/11/2023;11/11/2023;Lapangan Kenongo Tulangan SDA;;Singhasari FC U-17 VS Gen-B Mojokerto U-17;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-057;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Canda Bhirawa;;Arekmalang Indonesia U-17 VS Naga Emas Asri U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-058;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Jenggolo Sidoarjo;;Asifa Malang U-17 VS Sang Maestro U-17;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-059;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Bayuangga Probolinggo;;Persebo Muda U-17 VS Persikapro U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-060;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Soeprijadi Blitar;;Malang United VS Persenga Nganjuk U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-061;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Rejoagung Kediri;;Madiun Putra U-17 VS Akor FC U-17;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-062;Piala Soeratin U-17;11/11/2023;11/11/2023;Lapangan CJI Samsung Pasuruan;;Gresik United U-17 VS Perssu Sumenep U-17;;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-063;Piala Soeratin U-17;11/11/2023;11/11/2023;Lapangan Kalisat Jember;;Suryanaga Surabaya U-17 VS Persebo Muda 1964 U-17;02:05;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-064;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Jala Krida AAL Surabaya;;Persegres Putra U-17 VS Gestra FC U-17;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-065;Piala Soeratin U-17;11/11/2023;11/11/2023;Lapangan Agro Kota Batu;;Persikoba Batu U-17 VS Arema FC U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-066;Piala Soeratin U-17;11/11/2023;11/11/2023;Lapangan Kalisat Jember;;PSPK Jember U-17 VS Banyuwangi Putra U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-067;Piala Soeratin U-17;11/11/2023;11/11/2023;Lapangan Kenongo Tulangan SDA;;Sinar Harapan U-17 VS PSMP Mojokerto U-17;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-068;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Canda Bhirawa;;Persedikab Kediri U-17 VS Persema Malang U-17;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-069;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Jala Krida AAL Surabaya;;Persebaya Surabaya U-17 VS Perseba Bangkalan U-17;05:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-070;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Bayuangga Probolinggo;;Persipro 1954 U-17 VS Persid Jember U-17;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-071;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Surajaya Lamongan;;Persela Lamongan U-17 VS Persik Kediri U-17;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-072;Piala Soeratin U-17;11/11/2023;11/11/2023;Lapangan CJI Samsung Pasuruan;;Persekap Pasuruan U-17 VS Bhayangkara FC U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-073;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Brawijaya Kediri;;Inter Kediri U-17 VS PSIL Lumajang U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-074;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Soeprijadi Blitar;;PSBR Kota Blitar U-17 VS Perseta Tulungagung U-17;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-075;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Rejoagung Kediri;;Perseta Tulungagung 1970 U-17 VS Persiga Trenggalek U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-076;Piala Soeratin U-17;11/11/2023;11/11/2023;Stadion Jenggolo Sidoarjo;;Deltras Sidoarjo U-17 VS Bajul Ijo U-17;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-077;Piala Soeratin U-17;09/11/2023;09/11/2023;Lapangan Kalisat Jember;;Suryanaga Surabaya U-17 VS PSPK Jember U-17;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-078;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Jenggolo Sidoarjo;;Asifa Malang U-17 VS Deltras Sidoarjo U-17;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-079;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Brawijaya Kediri;;NZR Sumbersari U-17 VS Inter Kediri U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-080;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Surajaya Lamongan;;Bojonegoro FC U-17 VS Persela Lamongan U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-081;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Jala Krida AAL Surabaya;;Persegres Putra U-17 VS Persebaya Surabaya U-17;00:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-082;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Bayuangga Probolinggo;;Persebo Muda U-17 VS Persipro 1954 U-17;00:05;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-083;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Rejoagung Kediri;;Madiun Putra U-17 VS Perseta Tulungagung 1970 U-17;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-084;Piala Soeratin U-17;09/11/2023;09/11/2023;Lapangan Agro Kota Batu;;Persekam Metro U-17 VS Persikoba Batu U-17;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-085;Piala Soeratin U-17;09/11/2023;09/11/2023;Lapangan Kenongo Tulangan SDA;;Singhasari FC U-17 VS Sinar Harapan U-17;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-086;Piala Soeratin U-17;09/11/2023;09/11/2023;Lapangan CJI Samsung Pasuruan;;Gresik United U-17 VS Persekap Pasuruan U-17;;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-087;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Soeprijadi Blitar;;Malang United VS PSBR Kota Blitar U-17;00:07;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-088;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Canda Bhirawa;;Arekmalang Indonesia U-17 VS Persedikab Kediri U-17;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-089;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Jenggolo Sidoarjo;;Sang Maestro U-17 VS Bajul Ijo U-17;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-090;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Surajaya Lamongan;;Hizbul Wathan U-17 VS Persik Kediri U-17;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-091;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Jala Krida AAL Surabaya;;Gestra FC U-17 VS Perseba Bangkalan U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-092;Piala Soeratin U-17;09/11/2023;09/11/2023;Lapangan Agro Kota Batu;;PSBI Blitar U-17 VS Arema FC U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-093;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Brawijaya Kediri;;Mitra Bola Utama U-17 VS PSIL Lumajang U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-094;Piala Soeratin U-17;09/11/2023;09/11/2023;Lapangan CJI Samsung Pasuruan;;Perssu Sumenep U-17 VS Bhayangkara FC U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-095;Piala Soeratin U-17;09/11/2023;09/11/2023;Lapangan Kenongo Tulangan SDA;;Gen-B Mojokerto U-17 VS PSMP Mojokerto U-17;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-096;Piala Soeratin U-17;09/11/2023;09/11/2023;Lapangan Kalisat Jember;;Persebo Muda 1964 U-17 VS Banyuwangi Putra U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-097;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Soeprijadi Blitar;;Persenga Nganjuk U-17 VS Perseta Tulungagung U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-098;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Rejoagung Kediri;;Akor FC U-17 VS Persiga Trenggalek U-17;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-099;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Bayuangga Probolinggo;;Persikapro U-17 VS Persid Jember U-17;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-100;Piala Soeratin U-17;09/11/2023;09/11/2023;Stadion Canda Bhirawa;;Naga Emas Asri U-17 VS Persema Malang U-17;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-101;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Brawijaya Kediri;;PSIL Lumajang U-17 VS NZR Sumbersari U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-102;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Surajaya Lamongan;;Persik Kediri U-17 VS Bojonegoro FC U-17;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-103;Piala Soeratin U-17;08/11/2023;08/11/2023;Lapangan Kenongo Tulangan SDA;;PSMP Mojokerto U-17 VS Singhasari FC U-17;04:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-104;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Bayuangga Probolinggo;;Persid Jember U-17 VS Persebo Muda Bondowoso U-17;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-105;Piala Soeratin U-17;08/11/2023;08/11/2023;Lapangan Agro Kota Batu;;Arema FC U-17 VS Persekam Metro U-17;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-106;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Canda Bhirawa;;Persema Malang U-17 VS Arekmalang Indonesia U-17;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-107;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Jala Krida AAL Surabaya;;Perseba Bangkalan U-17 VS Persegres Putra U-17;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-108;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Jenggolo Sidoarjo;;Bajul Ijo U-17 VS Asifa Malang U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-109;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Rejoagung Kediri;;Persiga Trenggalek U-17 VS Madiun Putra U-17;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-110;Piala Soeratin U-17;08/11/2023;08/11/2023;Lapangan CJI Samsung Pasuruan;;Bhayangkara FC U-17 VS Gresik United U-17;;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-111;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Soeprijadi Blitar;;Perseta Tulungagung U-17 VS Malang United;06:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-112;Piala Soeratin U-17;08/11/2023;08/11/2023;Lapangan Kalisat Jember;;Banyuwangi Putra U-17 VS Suryanaga Surabaya U-17;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-113;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Soeprijadi Blitar;;PSBR Kota Blitar U-17 VS Persenga Nganjuk U-17;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-114;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Canda Bhirawa;;Persedikab Kediri U-17 VS Naga Emas Asri U-17;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-115;Piala Soeratin U-17;08/11/2023;08/11/2023;Lapangan CJI Samsung Pasuruan;;Persekap Pasuruan U-17 VS Perssu Sumenep U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-116;Piala Soeratin U-17;08/11/2023;08/11/2023;Lapangan Agro Kota Batu;;Persikoba Batu U-17 VS PSBI Blitar U-17;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-117;Piala Soeratin U-17;08/11/2023;08/11/2023;Lapangan Kalisat Jember;;PSPK Jember U-17 VS Persebo Muda 1964 U-17;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-118;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Jala Krida AAL Surabaya;;Persebaya Surabaya U-17 VS Gestra FC U-17;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-119;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Jenggolo Sidoarjo;;Deltras Sidoarjo U-17 VS Sang Maestro U-17;05:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-120;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Rejoagung Kediri;;Perseta Tulungagung 1970 U-17 VS Akor FC U-17;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-121;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Surajaya Lamongan;;Persela Lamongan U-17 VS Hizbul Wathan U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-122;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Bayuangga Probolinggo;;Persipro 1954 U-17 VS Persikapro Probolinggo U-17;05:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-123;Piala Soeratin U-17;08/11/2023;08/11/2023;Lapangan Kenongo Tulangan SDA;;Sinar Harapan U-17 VS Gen-B Mojokerto U-17;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-124;Piala Soeratin U-17;08/11/2023;08/11/2023;Stadion Brawijaya Kediri;;Inter Kediri U-17 VS Mitra Bola Utama U-17;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-125;Piala Soeratin U-17;05/12/2024;05/12/2024;Lapangan Thor Surabaya;;Persedikab Kediri VS Mojosari Putra;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-126;Piala Soeratin U-17;05/12/2024;05/12/2024;Lapangan Thor Surabaya;;Bhayangkara FC VS Malang United;03:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-127;Piala Soeratin U-17;04/12/2024;04/12/2024;Lapangan Thor Surabaya;;Malang United VS Mojosari Putra;02:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-128;Piala Soeratin U-17;04/12/2024;04/12/2024;Lapangan Thor Surabaya;;Persedikab Kediri VS Bhayangkara FC;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-129;Piala Soeratin U-17;02/12/2024;02/12/2024;Stadion Kodam V Brawijaya;;Banyuwangi Putra VS Mojosari Putra;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-130;Piala Soeratin U-17;02/12/2024;02/12/2024;Stadion Kodam V Brawijaya;;Bhayangkara FC VS Asifa Malang;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-131;Piala Soeratin U-17;01/12/2024;01/12/2024;Stadion Kodam V Brawijaya;;PSBR Kota Blitar VS Malang United;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-132;Piala Soeratin U-17;01/12/2024;01/12/2024;Stadion Kodam V Brawijaya;;Persida Sidoarjo VS Persedikab Kediri;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-133;Piala Soeratin U-17;29/11/2024;29/11/2024;Stadion Kodam V Brawijaya;;Blayu FC VS Asifa Malang;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-134;Piala Soeratin U-17;29/11/2024;29/11/2024;Stadion J. A. Yani Arhanud;;Mojosari Putra VS Persinga Ngawi;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-135;Piala Soeratin U-17;29/11/2024;29/11/2024;Stadion Kodam V Brawijaya;;Bhayangkara FC VS Persela Lamongan;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-136;Piala Soeratin U-17;29/11/2024;29/11/2024;Stadion J. A. Yani Arhanud;;PS Mojokerto Putra VS Banyuwangi Putra;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-137;Piala Soeratin U-17;28/11/2024;28/11/2024;Stadion Kodam V Brawijaya;;Deltras Sidoarjo VS Persedikab Kediri;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-138;Piala Soeratin U-17;28/11/2024;28/11/2024;Stadion J. A. Yani Arhanud;;Persid Jember VS Malang United;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-139;Piala Soeratin U-17;28/11/2024;28/11/2024;Stadion Kodam V Brawijaya;;Persida Sidoarjo VS Persekabpas;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-140;Piala Soeratin U-17;28/11/2024;28/11/2024;Stadion J. A. Yani Arhanud;;PSBR Kota Blitar VS Blitar Poetra;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-141;Piala Soeratin U-17;26/11/2024;26/11/2024;Stadion Jala Krida AAL Surabaya;;Deltras VS PSPK Pasuruan;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-142;Piala Soeratin U-17;26/11/2024;26/11/2024;Stadion Kodam V Brawijaya;;Persinga Ngawi VS Hizbul Wathan FC;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-143;Piala Soeratin U-17;26/11/2024;26/11/2024;Lap. Pusdik Arhanud Kota Batu;;Persid Jember VS Persekam Metro;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-144;Piala Soeratin U-17;26/11/2024;26/11/2024;Lapangan Polda Jatim;;Asifa Malang VS Madiun Putra;06:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-145;Piala Soeratin U-17;26/11/2024;26/11/2024;Lap. Pusdik Arhanud Kota Batu;;PS Sinar Harapan VS Malang United;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-146;Piala Soeratin U-17;26/11/2024;26/11/2024;Stadion Jala Krida AAL Surabaya;;Persedikab VS PSBI Blitar;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-147;Piala Soeratin U-17;26/11/2024;26/11/2024;Lapangan Polda Jatim;;Persem Mojokerto VS Blayu FC;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-148;Piala Soeratin U-17;26/11/2024;26/11/2024;Stadion Kodam V Brawijaya;;Mojosari Putra VS NZR Sumbersari;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-149;Piala Soeratin U-17;25/11/2024;25/11/2024;Lapangan Polda Jatim;;Bhayangkara FC VS PSSS Situbondo;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-150;Piala Soeratin U-17;25/11/2024;25/11/2024;Stadion Kodam V Brawijaya;;Banyuwangi Putra VS PS Kota Pahlawan;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-151;Piala Soeratin U-17;25/11/2024;25/11/2024;Lap. Pusdik Arhanud Kota Batu;;PSBK Kota Blitar VS Blitar Poetra;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-152;Piala Soeratin U-17;25/11/2024;25/11/2024;Stadion Jala Krida AAL Surabaya;;Persema Malang VS Persekabpas;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-153;Piala Soeratin U-17;25/11/2024;25/11/2024;Stadion Jala Krida AAL Surabaya;;Persibo Bojonegoro VS Persida Sidoarjo;00:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-154;Piala Soeratin U-17;25/11/2024;25/11/2024;Lapangan Polda Jatim;;Persela Lamongan VS Persebaya Surabaya;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-155;Piala Soeratin U-17;25/11/2024;25/11/2024;Lap. Pusdik Arhanud Kota Batu;;PSBR Kota Blitar VS PSIL Lumajang;07:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-156;Piala Soeratin U-17;25/11/2024;25/11/2024;Stadion Kodam V Brawijaya;;Arekmalang Indonesia VS PS Mojokerto Putra;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-157;Piala Soeratin U-17;23/11/2024;23/11/2024;Jember Sport Garden;;PSIL Lumajang VS Persekap Pasuruan;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-158;Piala Soeratin U-17;23/11/2024;23/11/2024;Lapangan Polda Jatim;;Persebaya Surabaya VS Persepam Pamekasan;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-159;Piala Soeratin U-17;23/11/2024;23/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Bojonegoro FC VS Persela Lamongan;01:07;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-160;Piala Soeratin U-17;23/11/2024;23/11/2024;Stadion Canda Bhirawa;;Pare FC VS Suryanaga;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-161;Piala Soeratin U-17;23/11/2024;23/11/2024;Gelora Panataran Blitar;;PSBK Kota Blitar VS Persik Kediri;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-162;Piala Soeratin U-17;23/11/2024;23/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Persegres Putra VS PS Kota Pahlawan;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-163;Piala Soeratin U-17;23/11/2024;23/11/2024;Stadion Canda Bhirawa;;Madiun Putra VS NZR Sumbersari;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-164;Piala Soeratin U-17;23/11/2024;23/11/2024;Lapangan Polda Jatim;;Hizbul Wathan FC VS Perssu Madura City;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-165;Piala Soeratin U-17;23/11/2024;23/11/2024;Gelora Panataran Blitar;;Gresik Putra VS Persekabpas;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-166;Piala Soeratin U-17;23/11/2024;23/11/2024;Jember Sport Garden;;Arekmalang Indonesia VS Persebo 1964;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-167;Piala Soeratin U-17;22/11/2024;22/11/2024;Jember Sport Garden;;Persebo 1964 VS PSIL Lumajang;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-168;Piala Soeratin U-17;22/11/2024;22/11/2024;Lapangan Polda Jatim;;Perssu Madura City VS Persebaya Surabaya;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-169;Piala Soeratin U-17;22/11/2024;22/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;PS Kota Pahlawan VS Bojonegoro FC;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-170;Piala Soeratin U-17;22/11/2024;22/11/2024;Gelora Panataran Blitar;;Persekabpas VS PSBK Kota Blitar;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-171;Piala Soeratin U-17;22/11/2024;22/11/2024;Stadion Canda Bhirawa;;NZR Sumbersari VS Pare FC;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-172;Piala Soeratin U-17;22/11/2024;22/11/2024;Lapangan Polda Jatim;;Persepam Pamekasan VS Banyuwangi Putra;02:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-173;Piala Soeratin U-17;22/11/2024;22/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Persela Lamongan VS PS HW Ponorogo;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-174;Piala Soeratin U-17;22/11/2024;22/11/2024;Gelora Panataran Blitar;;Persik Kediri VS Persida Sidoarjo;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-175;Piala Soeratin U-17;22/11/2024;22/11/2024;Stadion Canda Bhirawa;;Suryanaga VS Persem Mojokerto;01:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-176;Piala Soeratin U-17;22/11/2024;22/11/2024;Jember Sport Garden;;Persekap Pasuruan VS PSSS Situbondo;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-177;Piala Soeratin U-17;21/11/2024;21/11/2024;Stadion Brawijaya Kediri;;Deltras VS Gen-B Mojokerto;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-178;Piala Soeratin U-17;21/11/2024;21/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Persela Lamongan VS Persegres Putra;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-179;Piala Soeratin U-17;21/11/2024;21/11/2024;Stadion Soeprijadi Blitar;;PSBI Blitar VS PS Sinar Harapan;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-180;Piala Soeratin U-17;21/11/2024;21/11/2024;Stadion Canda Bhirawa;;Suryanaga VS Madiun Putra;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-181;Piala Soeratin U-17;21/11/2024;21/11/2024;Gelora Panataran Blitar;;Persik Kediri VS Gresik Putra;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-182;Piala Soeratin U-17;21/11/2024;21/11/2024;Lapangan Polda Jatim;;Persepam Pamekasan VS Hizbul Wathan FC;00:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-183;Piala Soeratin U-17;21/11/2024;21/11/2024;Jember Sport Garden;;Persekap Pasuruan VS Arekmalang Indonesia;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-184;Piala Soeratin U-17;21/11/2024;21/11/2024;Stadion Brawijaya Kediri;;Arek Simo Putra FC VS Persekam Metro;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-185;Piala Soeratin U-17;21/11/2024;21/11/2024;Stadion Soeprijadi Blitar;;Arema FC VS Pasuruan United;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-186;Piala Soeratin U-17;21/11/2024;21/11/2024;Lapangan Polda Jatim;;Persebaya Surabaya VS Banyuwangi Putra;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-187;Piala Soeratin U-17;21/11/2024;21/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Bojonegoro FC VS PS HW Ponorogo;03:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-188;Piala Soeratin U-17;21/11/2024;21/11/2024;Gelora Panataran Blitar;;PSBK Kota Blitar VS Persida Sidoarjo;03:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-189;Piala Soeratin U-17;21/11/2024;21/11/2024;Stadion Canda Bhirawa;;Pare FC VS Persem Mojokerto;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-190;Piala Soeratin U-17;21/11/2024;21/11/2024;Jember Sport Garden;;PSIL Lumajang VS PSSS Situbondo;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-191;Piala Soeratin U-17;20/11/2024;20/11/2024;Stadion Canda Bhirawa;;Persedikab VS Akor FC;05:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-192;Piala Soeratin U-17;20/11/2024;20/11/2024;Stadion Soeprijadi Blitar;;PSBR Kota Blitar VS Persikoba Batu;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-193;Piala Soeratin U-17;20/11/2024;20/11/2024;Jember Sport Garden;;Persid Jember VS Persebo Muda;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-194;Piala Soeratin U-17;20/11/2024;20/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Persibo Bojonegoro VS Persinga Ngawi;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-195;Piala Soeratin U-17;20/11/2024;20/11/2024;Stadion Brawijaya Kediri;;Inter Pemuda Kediri VS Blayu FC;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-196;Piala Soeratin U-17;20/11/2024;20/11/2024;Gelora Panataran Blitar;;Blitar Poetra VS Triple’s Kediri;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-197;Piala Soeratin U-17;20/11/2024;20/11/2024;Lapangan Polda Jatim;;Bhayangkara FC VS Perseba Bangkalan;06:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-198;Piala Soeratin U-17;20/11/2024;20/11/2024;Lapangan Polda Jatim;;Lamongan FC VS PS Mojokerto Putra;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-199;Piala Soeratin U-17;20/11/2024;20/11/2024;Stadion Brawijaya Kediri;;Mojosari Putra VS SANG MAESTRO FC;05:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-200;Piala Soeratin U-17;20/11/2024;20/11/2024;Gelora Panataran Blitar;;Perseta 1970 VS Persema Malang;01:05;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-201;Piala Soeratin U-17;20/11/2024;20/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Cahaya Muda VS Perspa Pacitan;;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-202;Piala Soeratin U-17;20/11/2024;20/11/2024;Jember Sport Garden;;PSPK Pasuruan VS Mitra Bola Utama;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-203;Piala Soeratin U-17;20/11/2024;20/11/2024;Stadion Soeprijadi Blitar;;Asifa Malang VS Mojokerto FC;13:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-204;Piala Soeratin U-17;20/11/2024;20/11/2024;Stadion Canda Bhirawa;;Malang United VS Nganjuk Ladang;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-205;Piala Soeratin U-17;19/11/2024;19/11/2024;Gelora Panataran Blitar;;Persida Sidoarjo VS Persekabpas;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-206;Piala Soeratin U-17;19/11/2024;19/11/2024;Stadion Brawijaya Kediri;;Persekam Metro VS Gen-B Mojokerto;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-207;Piala Soeratin U-17;19/11/2024;19/11/2024;Lapangan Polda Jatim;;Banyuwangi Putra VS Perssu Madura City;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-208;Piala Soeratin U-17;19/11/2024;19/11/2024;Stadion Canda Bhirawa;;Persem Mojokerto VS NZR Sumbersari;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-209;Piala Soeratin U-17;19/11/2024;19/11/2024;Jember Sport Garden;;PSSS Situbondo VS Persebo 1964;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-210;Piala Soeratin U-17;19/11/2024;19/11/2024;Stadion Soeprijadi Blitar;;Pasuruan United VS PS Sinar Harapan;00:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-211;Piala Soeratin U-17;19/11/2024;19/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;PS HW Ponorogo VS PS Kota Pahlawan;02:06;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-212;Piala Soeratin U-17;19/11/2024;19/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Persegres Putra VS Bojonegoro FC;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-213;Piala Soeratin U-17;19/11/2024;19/11/2024;Stadion Soeprijadi Blitar;;Arema FC VS PSBI Blitar;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-214;Piala Soeratin U-17;19/11/2024;19/11/2024;Lapangan Polda Jatim;;Hizbul Wathan FC VS Persebaya Surabaya;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-215;Piala Soeratin U-17;19/11/2024;19/11/2024;Jember Sport Garden;;Arekmalang Indonesia VS PSIL Lumajang;04:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-216;Piala Soeratin U-17;19/11/2024;19/11/2024;Stadion Brawijaya Kediri;;Arek Simo Putra FC VS Deltras;00:06;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-217;Piala Soeratin U-17;19/11/2024;19/11/2024;Gelora Panataran Blitar;;Gresik Putra VS PSBK Kota Blitar;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-218;Piala Soeratin U-17;19/11/2024;19/11/2024;Stadion Canda Bhirawa;;Madiun Putra VS Pare FC;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-219;Piala Soeratin U-17;18/11/2024;18/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Perspa Pacitan VS Persinga Ngawi;00:05;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-220;Piala Soeratin U-17;18/11/2024;18/11/2024;Stadion Soeprijadi Blitar;;Mojokerto FC VS Persikoba Batu;01:07;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-221;Piala Soeratin U-17;18/11/2024;18/11/2024;Gelora Panataran Blitar;;Persema Malang VS Triple’s Kediri;03:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-222;Piala Soeratin U-17;18/11/2024;18/11/2024;Jember Sport Garden;;Mitra Bola Utama VS Persebo Muda;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-223;Piala Soeratin U-17;18/11/2024;18/11/2024;Stadion Brawijaya Kediri;;SANG MAESTRO FC VS Blayu FC;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-224;Piala Soeratin U-17;18/11/2024;18/11/2024;Lapangan Polda Jatim;;PS Mojokerto Putra VS Perseba Bangkalan;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-225;Piala Soeratin U-17;18/11/2024;18/11/2024;Stadion Canda Bhirawa;;Nganjuk Ladang VS Akor FC;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-226;Piala Soeratin U-17;18/11/2024;18/11/2024;Stadion Canda Bhirawa;;Malang United VS Persedikab;03:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-227;Piala Soeratin U-17;18/11/2024;18/11/2024;Stadion Soeprijadi Blitar;;Asifa Malang VS PSBR Kota Blitar;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-228;Piala Soeratin U-17;18/11/2024;18/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Cahaya Muda VS Persibo Bojonegoro;;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-229;Piala Soeratin U-17;18/11/2024;18/11/2024;Gelora Panataran Blitar;;Perseta 1970 VS Blitar Poetra;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-230;Piala Soeratin U-17;18/11/2024;18/11/2024;Jember Sport Garden;;PSPK Pasuruan VS Persid Jember;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-231;Piala Soeratin U-17;18/11/2024;18/11/2024;Stadion Brawijaya Kediri;;Mojosari Putra VS Inter Pemuda Kediri;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-232;Piala Soeratin U-17;18/11/2024;18/11/2024;Lapangan Polda Jatim;;Lamongan FC VS Bhayangkara FC;00:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-233;Piala Soeratin U-17;17/11/2024;17/11/2024;Stadion Canda Bhirawa;;Persem Mojokerto VS Madiun Putra;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-234;Piala Soeratin U-17;17/11/2024;17/11/2024;Stadion Soeprijadi Blitar;;PSBI Blitar VS Pasuruan United;06:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-235;Piala Soeratin U-17;17/11/2024;17/11/2024;Gelora Panataran Blitar;;Persida Sidoarjo VS Gresik Putra;07:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-236;Piala Soeratin U-17;17/11/2024;17/11/2024;Jember Sport Garden;;PSSS Situbondo VS Arekmalang Indonesia;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-237;Piala Soeratin U-17;17/11/2024;17/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;PS HW Ponorogo VS Persegres Putra;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-238;Piala Soeratin U-17;17/11/2024;17/11/2024;Stadion Brawijaya Kediri;;Deltras VS Persekam Metro;05:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-239;Piala Soeratin U-17;17/11/2024;17/11/2024;Lapangan Polda Jatim;;Banyuwangi Putra VS Hizbul Wathan FC;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-240;Piala Soeratin U-17;17/11/2024;17/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;PS Kota Pahlawan VS Persela Lamongan;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-241;Piala Soeratin U-17;17/11/2024;17/11/2024;Stadion Soeprijadi Blitar;;PS Sinar Harapan VS Arema FC;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-242;Piala Soeratin U-17;17/11/2024;17/11/2024;Gelora Panataran Blitar;;Persekabpas VS Persik Kediri;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-243;Piala Soeratin U-17;17/11/2024;17/11/2024;Lapangan Polda Jatim;;Perssu Madura City VS Persepam Pamekasan;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-244;Piala Soeratin U-17;17/11/2024;17/11/2024;Stadion Canda Bhirawa;;NZR Sumbersari VS Suryanaga;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-245;Piala Soeratin U-17;17/11/2024;17/11/2024;Stadion Brawijaya Kediri;;Gen-B Mojokerto VS Arek Simo Putra FC;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-246;Piala Soeratin U-17;17/11/2024;17/11/2024;Jember Sport Garden;;Persebo 1964 VS Persekap Pasuruan;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-247;Piala Soeratin U-17;16/11/2024;16/11/2024;Stadion Soeprijadi Blitar;;PSBR Kota Blitar VS Mojokerto FC;11:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-248;Piala Soeratin U-17;16/11/2024;16/11/2024;Stadion Soeprijadi Blitar;;Persikoba Batu VS Asifa Malang;01:05;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-249;Piala Soeratin U-17;16/11/2024;16/11/2024;Stadion Canda Bhirawa;;Persedikab VS Nganjuk Ladang;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-250;Piala Soeratin U-17;16/11/2024;16/11/2024;Gelora Panataran Blitar;;Blitar Poetra VS Persema Malang;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-251;Piala Soeratin U-17;16/11/2024;16/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Persibo Bojonegoro VS Perspa Pacitan;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-252;Piala Soeratin U-17;16/11/2024;16/11/2024;Stadion Brawijaya Kediri;;Inter Pemuda Kediri VS SANG MAESTRO FC;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-253;Piala Soeratin U-17;16/11/2024;16/11/2024;Jember Sport Garden;;Persid Jember VS Mitra Bola Utama;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-254;Piala Soeratin U-17;16/11/2024;16/11/2024;Lapangan Polda Jatim;;Bhayangkara FC VS PS Mojokerto Putra;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-255;Piala Soeratin U-17;16/11/2024;16/11/2024;Jember Sport Garden;;Persebo Muda VS PSPK Pasuruan;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-256;Piala Soeratin U-17;16/11/2024;16/11/2024;Lapangan Polda Jatim;;Perseba Bangkalan VS Lamongan FC;04:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-257;Piala Soeratin U-17;16/11/2024;16/11/2024;Gelora Panataran Blitar;;Triple’s Kediri VS Perseta 1970;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-258;Piala Soeratin U-17;16/11/2024;16/11/2024;Stadion Mini Dolok Gede, Bojonegoro;;Persinga Ngawi VS Cahaya Muda;;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-259;Piala Soeratin U-17;16/11/2024;16/11/2024;Stadion Canda Bhirawa;;Akor FC VS Malang United;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-260;Piala Soeratin U-17;16/11/2024;16/11/2024;Stadion Brawijaya Kediri;;Blayu FC VS Mojosari Putra;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-261;Piala Soeratin U-17;09/08/2025;09/08/2025;Lapangan Penegak Sapta Marga, Kostrad Singosari;;Persebaya Surabaya VS Gen-B Mojokerto;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-262;Piala Soeratin U-17;09/08/2025;09/08/2025;Lapangan Penegak Sapta Marga, Kostrad Singosari;;PSIL Lumajang VS Persedikab;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-263;Piala Soeratin U-17;07/08/2025;07/08/2025;Lapangan Penegak Sapta Marga, Kostrad Singosari;;Persedikab Kediri VS Gen-B Mojokerto;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-264;Piala Soeratin U-17;07/08/2025;07/08/2025;Lapangan Penegak Sapta Marga, Kostrad Singosari;;Persebaya Surabaya VS PSIL Lumajang;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-265;Piala Soeratin U-17;02/08/2025;02/08/2025;Stadion Brantas Kota Batu;;Banyuwangi Putra VS Gen-B Mojokerto;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-266;Piala Soeratin U-17;02/08/2025;02/08/2025;Stadion Brantas Kota Batu;;Persepam Pamekasan VS Persedikab Kediri;00:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-267;Piala Soeratin U-17;01/08/2025;01/08/2025;Stadion Brantas Kota Batu;;PSSS Situbondo VS PSIL Lumajang;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-268;Piala Soeratin U-17;01/08/2025;01/08/2025;Stadion Brantas Kota Batu;;Persebaya Surabaya VS Persema Malang;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-269;Piala Soeratin U-17;27/07/2025;27/07/2025;Stadion Surajaya Lamongan;;Persebaya Surabaya VS Persela Lamongan;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-270;Piala Soeratin U-17;27/07/2025;27/07/2025;Gelora Muhammad Saleh, Situbondo;;Akor FC Jombang VS PSSS Situbondo;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-271;Piala Soeratin U-17;27/07/2025;27/07/2025;Stadion Semeru Lumajang;;PSIL Lumajang VS Persenga Nganjuk;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-272;Piala Soeratin U-17;27/07/2025;27/07/2025;Madura United Training Ground;;Persepam Pamekasan VS Persik Kediri;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-273;Piala Soeratin U-17;27/07/2025;27/07/2025;Lapangan Ngeronggo Kediri;;Persedikab Kediri VS Nganjuk Ladang;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-274;Piala Soeratin U-17;27/07/2025;27/07/2025;Stadion Diponegoro Banyuwangi;;Deltras Sidoarjo VS Banyuwangi Putra;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-275;Piala Soeratin U-17;27/07/2025;27/07/2025;Stadion Untung Surapati;;Persekap Kota Pasuruan VS Gen-B Mojokerto;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-276;Piala Soeratin U-17;27/07/2025;27/07/2025;Stadion Surajaya Lamongan;;Lamongan FC VS Persema Malang;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-277;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Diponegoro Banyuwangi;;Banyuwangi Putra VS Persemag Magetan;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-278;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Anjuk Ladang, Nganjuk;;Persenga Nganjuk VS Persekabpas Pasuruan;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-279;Piala Soeratin U-17;20/07/2025;20/07/2025;Lapangan ABC Surabaya;;Persebaya Surabaya VS Persegres Putra;05:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-280;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Brantas Kota Batu;;Persikoba Batu VS Nganjuk Ladang;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-281;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Surajaya Lamongan;;Persela Lamongan VS Persekam Metro;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-282;Piala Soeratin U-17;20/07/2025;20/07/2025;Lapangan Ngeronggo Kediri;;PS Mojokerto Putra VS Persedikab;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-283;Piala Soeratin U-17;20/07/2025;20/07/2025;Madura United Training Ground;;Mojokerto FC VS Persepam Pamekasan;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-284;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Mini Gayam;;Persibo Bojonegoro VS PSSS Situbondo;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-285;Piala Soeratin U-17;20/07/2025;20/07/2025;Lapangan Deltras Academy;;Deltras VS Malang United;04:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-286;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Semeru Lumajang;;Persipro 1954 VS PSIL Lumajang;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-287;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Untung Surapati;;Persekap Pasuruan VS Pasuruan United;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-288;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Surajaya Lamongan;;Lamongan FC VS Inter Pemuda Kediri;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-289;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Mini Gayam;;Persinga Ngawi VS Persema Malang;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-290;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Brantas Kota Batu;;Gen-B Mojokerto VS PSBI Blitar;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-291;Piala Soeratin U-17;20/07/2025;20/07/2025;Lapangan Ngeronggo Kediri;;Persik Kediri VS Triple’s Kediri;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-292;Piala Soeratin U-17;20/07/2025;20/07/2025;Stadion Untung Surapati;;Assyabaab Bangil VS Akor FC;00:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-293;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Semeru Lumajang;;PSIL Lumajang VS Persekap Pasuruan;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-294;Piala Soeratin U-17;15/07/2025;15/07/2025;Gelora Panataran Blitar;;PSBI Blitar VS Persenga Nganjuk;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-295;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Singojoyo, Kalisat Jember;;PSPK Pasuruan VS Persebo 1964;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-296;Piala Soeratin U-17;15/07/2025;15/07/2025;Lapangan ABC Surabaya;;Persebaya Surabaya VS Persepam Pamekasan;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-297;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Brantas Kota Batu;;Persikoba Batu VS Perseta Tulungagung;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-298;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Diponegoro Banyuwangi;;Banyuwangi Putra VS PSSS Situbondo;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-299;Piala Soeratin U-17;15/07/2025;15/07/2025;Lapangan Gajah Mada, Lamongan;;Persela Lamongan VS Bojonegoro FC;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-300;Piala Soeratin U-17;15/07/2025;15/07/2025;Jember Sport Garden;;Persid Jember VS Mitra Surabaya;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-301;Piala Soeratin U-17;15/07/2025;15/07/2025;Lapangan Yonzipur Kepanjen;;Persekam Metro VS Persik Kediri;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-302;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Mini Gayam;;Persibo Bojonegoro VS Madiun Putra;04:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-303;Piala Soeratin U-17;15/07/2025;15/07/2025;Blayu Training Ground;;Blayu FC VS PS Sinar Harapan;04:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-304;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Jenggolo Sidoarjo;;Persida Sidoarjo VS Deltras;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-305;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Pogar Pasuruan;;Persekabpas Pasuruan VS Asifa Malang;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-306;Piala Soeratin U-17;15/07/2025;15/07/2025;Lapangan Ngeronggo Kediri;;Inter Pemuda Kediri VS PS Mojokerto Putra;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-307;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Semeru Lumajang;;Hizbul Wathan FC VS Arekmalang;06:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-308;Piala Soeratin U-17;15/07/2025;15/07/2025;Lapangan Ngeronggo Kediri;;Blitar Poetra VS Pare FC;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-309;Piala Soeratin U-17;15/07/2025;15/07/2025;Gelora Panataran Blitar;;Arema FC VS Naga Emas Asri;04:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-310;Piala Soeratin U-17;15/07/2025;15/07/2025;Blayu Training Ground;;Sang Maestro FC VS Persegres Putra;02:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-311;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Brantas Kota Batu;;Persema Malang VS Kediri United;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-312;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Pogar Pasuruan;;Gen-B Mojokerto VS PSBR Kota Blitar;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-313;Piala Soeratin U-17;15/07/2025;15/07/2025;Lapangan Gajah Mada, Lamongan;;Triple’s Kediri VS AC Majapahit;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-314;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Singojoyo, Kalisat Jember;;Pasuruan United VS Persipro 1954;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-315;Piala Soeratin U-17;15/07/2025;15/07/2025;Lapangan Yonzipur Kepanjen;;Mitra Bola Utama VS Mojosari Putra;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-316;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Jenggolo Sidoarjo;;Akor FC VS Arek Simo Putra FC;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-317;Piala Soeratin U-17;15/07/2025;15/07/2025;Jember Sport Garden;;Assyabaab Bangil VS Malang United;04:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-318;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Mini Gayam;;PSID Jombang VS Arek Suroboyo;01:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-319;Piala Soeratin U-17;15/07/2025;15/07/2025;Lapangan ABC Surabaya;;Perseba Bangkalan VS Persesa Sampang;01:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-320;Piala Soeratin U-17;15/07/2025;15/07/2025;Stadion Diponegoro Banyuwangi;;Persebo Muda VS Persikapro Probolinggo;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-321;Piala Soeratin U-17;14/07/2025;14/07/2025;Lapangan Gajah Mada, Lamongan;;Lamongan FC VS Persedikab;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-322;Piala Soeratin U-17;14/07/2025;14/07/2025;Gelora Bung Sumardji, Nganjuk;;Persinga Ngawi VS Perspa Pacitan;04:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-323;Piala Soeratin U-17;14/07/2025;14/07/2025;Lapangan Gajah Mada, Lamongan;;PS Kota Pahlawan VS Persekama Madiun;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-324;Piala Soeratin U-17;13/07/2025;13/07/2025;Jember Sport Garden;;Assyabaab Bangil VS Persid Jember;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-325;Piala Soeratin U-17;13/07/2025;13/07/2025;Lapangan Yonzipur Kepanjen;;Mojosari Putra VS Persekam Metro;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-326;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Brantas Kota Batu;;Persema Malang VS Persikoba Batu;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-327;Piala Soeratin U-17;13/07/2025;13/07/2025;Lapangan Gajah Mada, Lamongan;;Triple’s Kediri VS Persela Lamongan;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-328;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Pogar Pasuruan;;PSBR Kota Blitar VS Persekabpas Pasuruan;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-329;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Mini Gayam;;Arek Suroboyo VS Persibo Bojonegoro;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-330;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Singojoyo, Kalisat Jember;;Pasuruan United VS PSPK Pasuruan;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-331;Piala Soeratin U-17;13/07/2025;13/07/2025;Gelora Panataran Blitar;;Arema FC VS PSBI Blitar;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-332;Piala Soeratin U-17;13/07/2025;13/07/2025;Blayu Training Ground;;Persegres Putra VS Blayu FC;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-333;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Diponegoro Banyuwangi;;Persebo Muda VS Banyuwangi Putra;00:12;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-334;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Jenggolo Sidoarjo;;Arek Simo Putra FC VS Persida Sidoarjo;00:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-335;Piala Soeratin U-17;13/07/2025;13/07/2025;Lapangan Ngeronggo Kediri;;Blitar Poetra VS Inter Pemuda Kediri;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-336;Piala Soeratin U-17;13/07/2025;13/07/2025;Lapangan ABC Surabaya;;Persesa Sampang VS Persebaya Surabaya;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-337;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Semeru Lumajang;;Hizbul Wathan FC VS PSIL Lumajang;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-338;Piala Soeratin U-17;13/07/2025;13/07/2025;Lapangan ABC Surabaya;;Persepam Pamekasan VS Persem Mojokerto;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-339;Piala Soeratin U-17;13/07/2025;13/07/2025;Jember Sport Garden;;Malang United VS Mitra Surabaya;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-340;Piala Soeratin U-17;13/07/2025;13/07/2025;Lapangan Yonzipur Kepanjen;;Persik Kediri VS PSBK Kota Blitar;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-341;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Semeru Lumajang;;Arekmalang VS Persekap Pasuruan;00:05;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-342;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Pogar Pasuruan;;Asifa Malang VS Kresna UNESA FC;06:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-343;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Brantas Kota Batu;;Kediri United VS Perseta Tulungagung;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-344;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Singojoyo, Kalisat Jember;;Persipro 1954 VS Persebo 1964;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-345;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Mini Gayam;;Madiun Putra VS Persemag Magetan;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-346;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Jenggolo Sidoarjo;;Deltras VS Suryanaga;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-347;Piala Soeratin U-17;13/07/2025;13/07/2025;Lapangan Gajah Mada, Lamongan;;AC Majapahit VS Bojonegoro FC;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-348;Piala Soeratin U-17;13/07/2025;13/07/2025;Blayu Training Ground;;PS Sinar Harapan VS Mojokerto FC;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-349;Piala Soeratin U-17;13/07/2025;13/07/2025;Stadion Diponegoro Banyuwangi;;Persikapro Probolinggo VS PSSS Situbondo;00:05;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-350;Piala Soeratin U-17;13/07/2025;13/07/2025;Gelora Panataran Blitar;;Naga Emas Asri VS Persenga Nganjuk;01:07;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-351;Piala Soeratin U-17;13/07/2025;13/07/2025;Lapangan Ngeronggo Kediri;;Pare FC VS PS Mojokerto Putra;00:06;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-352;Piala Soeratin U-17;12/07/2025;12/07/2025;Lapangan Ngeronggo Kediri;;Inter Pemuda Kediri VS Pare FC;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-353;Piala Soeratin U-17;12/07/2025;12/07/2025;Lapangan Gajah Mada, Lamongan;;PS Kota Pahlawan VS Lamongan FC;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-354;Piala Soeratin U-17;12/07/2025;12/07/2025;Lapangan ABC Surabaya;;Persepam Pamekasan VS Perseba Bangkalan;06:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-355;Piala Soeratin U-17;12/07/2025;12/07/2025;Lapangan Yonzipur Kepanjen;;Persik Kediri VS Mitra Bola Utama;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-356;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Jenggolo Sidoarjo;;Deltras VS Akor FC;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-357;Piala Soeratin U-17;12/07/2025;12/07/2025;Blayu Training Ground;;PS Sinar Harapan VS Sang Maestro FC;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-358;Piala Soeratin U-17;12/07/2025;12/07/2025;Gelora Panataran Blitar;;PSBI Blitar VS Naga Emas Asri;04:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-359;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Brantas Kota Batu;;Persikoba Batu VS Kediri United;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-360;Piala Soeratin U-17;12/07/2025;12/07/2025;Jember Sport Garden;;Persid Jember VS Malang United;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-361;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Singojoyo, Kalisat Jember;;PSPK Pasuruan VS Persipro 1954;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-362;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Semeru Lumajang;;PSIL Lumajang VS Arekmalang;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-363;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Mini Gayam;;Madiun Putra VS PSID Jombang;03:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-364;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Pogar Pasuruan;;Asifa Malang VS Gen-B Mojokerto;01:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-365;Piala Soeratin U-17;12/07/2025;12/07/2025;Gelora Bung Sumardji, Nganjuk;;Persinga Ngawi VS Nganjuk Ladang;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-366;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Singojoyo, Kalisat Jember;;Persebo 1964 VS Pasuruan United;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-367;Piala Soeratin U-17;12/07/2025;12/07/2025;Jember Sport Garden;;Mitra Surabaya VS Assyabaab Bangil;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-368;Piala Soeratin U-17;12/07/2025;12/07/2025;Lapangan Yonzipur Kepanjen;;Persekam Metro VS PSBK Kota Blitar;08:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-369;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Pogar Pasuruan;;Persekabpas Pasuruan VS Kresna UNESA FC;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-370;Piala Soeratin U-17;12/07/2025;12/07/2025;Lapangan Ngeronggo Kediri;;PS Mojokerto Putra VS Blitar Poetra;05:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-371;Piala Soeratin U-17;12/07/2025;12/07/2025;Gelora Panataran Blitar;;Persenga Nganjuk VS Arema FC;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-372;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Semeru Lumajang;;Persekap Pasuruan VS Hizbul Wathan FC;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-373;Piala Soeratin U-17;12/07/2025;12/07/2025;Lapangan Gajah Mada, Lamongan;;Persekama Madiun VS Persedikab;00:05;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-374;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Mini Gayam;;Persibo Bojonegoro VS Persemag Magetan;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-375;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Brantas Kota Batu;;Perseta Tulungagung VS Persema Malang;02:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-376;Piala Soeratin U-17;12/07/2025;12/07/2025;Stadion Jenggolo Sidoarjo;;Persida Sidoarjo VS Suryanaga;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-377;Piala Soeratin U-17;12/07/2025;12/07/2025;Blayu Training Ground;;Blayu FC VS Mojokerto FC;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-378;Piala Soeratin U-17;12/07/2025;12/07/2025;Lapangan ABC Surabaya;;Persebaya Surabaya VS Persem Mojokerto;07:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-379;Piala Soeratin U-17;11/07/2025;11/07/2025;Lapangan Gajah Mada, Lamongan;;Persela Lamongan VS AC Majapahit;05:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-380;Piala Soeratin U-17;11/07/2025;11/07/2025;Stadion Diponegoro Banyuwangi;;Banyuwangi Putra VS Persikapro Probolinggo;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-381;Piala Soeratin U-17;11/07/2025;11/07/2025;Gelora Bung Sumardji, Nganjuk;;Nganjuk Ladang VS Perspa Pacitan;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-382;Piala Soeratin U-17;11/07/2025;11/07/2025;Lapangan Gajah Mada, Lamongan;;Bojonegoro FC VS Triple’s Kediri;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-383;Piala Soeratin U-17;11/07/2025;11/07/2025;Stadion Diponegoro Banyuwangi;;PSSS Situbondo VS Persebo Muda;05:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-384;Piala Soeratin U-17;10/07/2025;10/07/2025;Lapangan Yonzipur Kepanjen;;PSBK Kota Blitar VS Mojosari Putra;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-385;Piala Soeratin U-17;10/07/2025;10/07/2025;Lapangan Gajah Mada, Lamongan;;Lamongan FC VS Persekama Madiun;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-386;Piala Soeratin U-17;10/07/2025;10/07/2025;Lapangan ABC Surabaya;;Persem Mojokerto VS Persesa Sampang;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-387;Piala Soeratin U-17;10/07/2025;10/07/2025;Blayu Training Ground;;Mojokerto FC VS Persegres Putra;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-388;Piala Soeratin U-17;10/07/2025;10/07/2025;Stadion Mini Gayam;;Persemag Magetan VS Arek Suroboyo;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-389;Piala Soeratin U-17;10/07/2025;10/07/2025;Stadion Jenggolo Sidoarjo;;Suryanaga VS Arek Simo Putra FC;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-390;Piala Soeratin U-17;10/07/2025;10/07/2025;Stadion Pogar Pasuruan;;Kresna UNESA FC VS PSBR Kota Blitar;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-391;Piala Soeratin U-17;10/07/2025;10/07/2025;Lapangan ABC Surabaya;;Perseba Bangkalan VS Persebaya Surabaya;00:10;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-392;Piala Soeratin U-17;10/07/2025;10/07/2025;Stadion Jenggolo Sidoarjo;;Akor FC VS Persida Sidoarjo;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-393;Piala Soeratin U-17;10/07/2025;10/07/2025;Stadion Mini Gayam;;PSID Jombang VS Persibo Bojonegoro;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-394;Piala Soeratin U-17;10/07/2025;10/07/2025;Stadion Pogar Pasuruan;;Gen-B Mojokerto VS Persekabpas Pasuruan;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-395;Piala Soeratin U-17;10/07/2025;10/07/2025;Blayu Training Ground;;Sang Maestro FC VS Blayu FC;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-396;Piala Soeratin U-17;10/07/2025;10/07/2025;Lapangan Yonzipur Kepanjen;;Mitra Bola Utama VS Persekam Metro;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-397;Piala Soeratin U-17;10/07/2025;10/07/2025;Lapangan Gajah Mada, Lamongan;;Persedikab VS PS Kota Pahlawan;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-398;Piala Soeratin U-17;09/07/2025;09/07/2025;Stadion Jenggolo Sidoarjo;;Suryanaga VS Akor FC;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-399;Piala Soeratin U-17;09/07/2025;09/07/2025;Stadion Mini Gayam;;Persemag Magetan VS PSID Jombang;04:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-400;Piala Soeratin U-17;09/07/2025;09/07/2025;Lapangan ABC Surabaya;;Persem Mojokerto VS Perseba Bangkalan;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-401;Piala Soeratin U-17;09/07/2025;09/07/2025;Lapangan Yonzipur Kepanjen;;PSBK Kota Blitar VS Mitra Bola Utama;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-402;Piala Soeratin U-17;09/07/2025;09/07/2025;Blayu Training Ground;;Mojokerto FC VS Sang Maestro FC;08:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-403;Piala Soeratin U-17;09/07/2025;09/07/2025;Stadion Pogar Pasuruan;;Kresna UNESA FC VS Gen-B Mojokerto;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-404;Piala Soeratin U-17;09/07/2025;09/07/2025;Blayu Training Ground;;Persegres Putra VS PS Sinar Harapan;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-405;Piala Soeratin U-17;09/07/2025;09/07/2025;Lapangan Yonzipur Kepanjen;;Mojosari Putra VS Persik Kediri;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-406;Piala Soeratin U-17;09/07/2025;09/07/2025;Lapangan ABC Surabaya;;Persesa Sampang VS Persepam Pamekasan;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-407;Piala Soeratin U-17;09/07/2025;09/07/2025;Stadion Pogar Pasuruan;;PSBR Kota Blitar VS Asifa Malang;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-408;Piala Soeratin U-17;09/07/2025;09/07/2025;Stadion Jenggolo Sidoarjo;;Arek Simo Putra FC VS Deltras;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-409;Piala Soeratin U-17;09/07/2025;09/07/2025;Stadion Mini Gayam;;Arek Suroboyo VS Madiun Putra;03:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-410;Piala Soeratin U-17;12/09/2026;12/09/2026;Stadion Brawijaya Kediri;;Persebaya Surabaya VS Inter Pemuda Kediri;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-411;Piala Soeratin U-17;12/09/2026;12/09/2026;Stadion Brawijaya Kediri;;Persida Sidoarjo VS PSBR Kota Blitar;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-412;Piala Soeratin U-17;10/09/2026;10/09/2026;Stadion Jenggolo Sidoarjo;;Persebaya Surabaya VS Persida Sidoarjo;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-413;Piala Soeratin U-17;10/09/2026;10/09/2026;Stadion Soeprijadi Blitar;;Inter Pemuda Kediri VS PSBR Kota Blitar;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-414;Piala Soeratin U-17;06/09/2026;06/09/2026;Stadion Jenggolo Sidoarjo;;PS Hizbul Wathan Ponorogo VS Persida Sidoarjo;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-415;Piala Soeratin U-17;06/09/2026;06/09/2026;Stadion Soeprijadi Blitar;;Persedikab Kediri VS PSBR Kota Blitar;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-416;Piala Soeratin U-17;06/09/2026;06/09/2026;Stadion Jenggolo Sidoarjo;;Persebaya Surabaya VS PS Mojokerto Putra;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-417;Piala Soeratin U-17;06/09/2026;06/09/2026;Stadion Soeprijadi Blitar;;Gen-B Mojokerto VS Inter Pemuda Kediri;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-418;Piala Soeratin U-17;03/09/2026;03/09/2026;Stadion Untung Surapati;;Persekap Pasuruan VS Gen-B Mojokerto;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-419;Piala Soeratin U-17;03/09/2026;03/09/2026;Stadion Surajaya Lamongan;;Persela Lamongan VS PS Mojokerto Putra;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-420;Piala Soeratin U-17;03/09/2026;03/09/2026;Stadion Jenggolo Sidoarjo;;Persida Sidoarjo VS UNESA FC;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-421;Piala Soeratin U-17;03/09/2026;03/09/2026;Stadion Soeprijadi Blitar;;PSBR Kota Blitar VS PSPK Kota Pasuruan;04:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-422;Piala Soeratin U-17;03/09/2026;03/09/2026;Stadion Jenggolo Sidoarjo;;Akor FC Jombang VS Persebaya Surabaya;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-423;Piala Soeratin U-17;03/09/2026;03/09/2026;Stadion Surajaya Lamongan;;Inter Pemuda Kediri VS Persibo Bojonegoro;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-424;Piala Soeratin U-17;03/09/2026;03/09/2026;Stadion Soeprijadi Blitar;;PS Hizbul Wathan Ponorogo VS Arema FC;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-425;Piala Soeratin U-17;03/09/2026;03/09/2026;Stadion Untung Surapati;;Persekabpas Pasuruan VS Persedikab Kediri;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-426;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Ketonggo Ngawi;;Persinga Ngawi VS Akor FC Jombang;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-427;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Untung Surapati;;Persekap Pasuruan VS Mojokerto FC;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-428;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Semeru Lumajang;;Persebaya Surabaya VS PSIL Lumajang;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-429;Piala Soeratin U-17;30/08/2026;30/08/2026;Gelora Ratu Pamelingan;;Persela Lamongan VS Naga Emas Asri;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-430;Piala Soeratin U-17;30/08/2026;30/08/2026;Lapangan Ngeronggo Kediri;;PSID Jombang VS Inter Pemuda Kediri;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-431;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Diponegoro Banyuwangi;;PS Mojokerto Putra VS Persewangi Banyuwangi;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-432;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Mini Gayam;;Mitra Surabaya VS Persibo Bojonegoro;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-433;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Jenggolo Sidoarjo;;Persida Sidoarjo VS Persiga Trenggalek;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-434;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Soeprijadi Blitar;;PSBR Kota Blitar VS Perseba Bangkalan;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-435;Piala Soeratin U-17;30/08/2026;30/08/2026;Gelora Ratu Pamelingan;;Gen-B Mojokerto VS Persepam Pamekasan;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-436;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Mini Gayam;;PS Hizbul Wathan Ponorogo VS eLKISI FC;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-437;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Semeru Lumajang;;Persekabpas Pasuruan VS Pasuruan United;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-438;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Soeprijadi Blitar;;Malang United VS Arema FC;01:05;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-439;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Untung Surapati;;Persedikab Kediri VS Blayu FC;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-440;Piala Soeratin U-17;30/08/2026;30/08/2026;Stadion Jenggolo Sidoarjo;;UNESA FC VS Persebo 1964;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-441;Piala Soeratin U-17;30/08/2026;30/08/2026;Lapangan Ngeronggo Kediri;;PSPK Kota Pasuruan VS Bojonegoro FC;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-442;Piala Soeratin U-17;24/08/2026;24/08/2026;Lapangan Ngeronggo Kediri;;Inter Pemuda Kediri VS Persela Lamongan;02:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-443;Piala Soeratin U-17;24/08/2026;24/08/2026;Stadion Plumbon Pandaan, Pasuruan;;Persekabpas Pasuruan VS Asifa Malang;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-444;Piala Soeratin U-17;24/08/2026;24/08/2026;Lapangan Ngeronggo Kediri;;AC Majapahit VS Madiun Putra;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-445;Piala Soeratin U-17;24/08/2026;24/08/2026;Stadion Plumbon Pandaan, Pasuruan;;Persem Mojokerto VS eLKISI FC;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-446;Piala Soeratin U-17;23/08/2026;23/08/2026;Stadion Menak Sopal;;Persiga Trenggalek VS PSBR Kota Blitar;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-447;Piala Soeratin U-17;23/08/2026;23/08/2026;Stadion Diponegoro Banyuwangi;;Persewangi Banyuwangi VS Persebo Muda;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-448;Piala Soeratin U-17;23/08/2026;23/08/2026;Lapangan Ngeronggo Kediri;;Madiun Putra VS Inter Pemuda Kediri;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-449;Piala Soeratin U-17;23/08/2026;23/08/2026;Jember Sport Garden;;Persid Jember VS PSPK Pasuruan;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-450;Piala Soeratin U-17;23/08/2026;23/08/2026;Stadion Merdeka Jombang;;PSID Jombang VS Bumi Wali FC;06:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-451;Piala Soeratin U-17;23/08/2026;23/08/2026;Stadion Plumbon Pandaan, Pasuruan;;eLKISI FC VS Persekabpas Pasuruan;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-452;Piala Soeratin U-17;23/08/2026;23/08/2026;Gelora Muhammad Saleh, Situbondo;;PSSS Situbondo VS Pasuruan United;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-453;Piala Soeratin U-17;23/08/2026;23/08/2026;Stadion Merdeka Jombang;;Naga Emas Asri VS Kediri United;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-454;Piala Soeratin U-17;23/08/2026;23/08/2026;Stadion Diponegoro Banyuwangi;;Mitra Surabaya VS Persikapro Probolinggo;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-455;Piala Soeratin U-17;23/08/2026;23/08/2026;Jember Sport Garden;;Persebo 1964 VS Persipro 1954;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-456;Piala Soeratin U-17;23/08/2026;23/08/2026;Stadion Menak Sopal;;Perspa Pacitan VS Blitar Poetra;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-457;Piala Soeratin U-17;23/08/2026;23/08/2026;Stadion Plumbon Pandaan, Pasuruan;;Asifa Malang VS Bajul Ijo;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-458;Piala Soeratin U-17;23/08/2026;23/08/2026;Gelora Muhammad Saleh, Situbondo;;PS HW Ponorogo VS Hizbul Wathan FC;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-459;Piala Soeratin U-17;23/08/2026;23/08/2026;Lapangan Ngeronggo Kediri;;Persela Lamongan VS Nganjuk Ladang;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-460;Piala Soeratin U-17;22/08/2026;22/08/2026;Gelora Panataran Blitar;;PSBI Blitar VS Persedikab;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-461;Piala Soeratin U-17;22/08/2026;22/08/2026;Lapangan yonkav 3 tank, Singosari;;Malang United VS Putra Bhirawa;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-462;Piala Soeratin U-17;22/08/2026;22/08/2026;Stadion Plumbon Pandaan, Pasuruan;;Persekabpas Pasuruan VS Bajul Ijo;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-463;Piala Soeratin U-17;22/08/2026;22/08/2026;Stadion Plumbon Pandaan, Pasuruan;;Asifa Malang VS Persem Mojokerto;06:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-464;Piala Soeratin U-17;22/08/2026;22/08/2026;Gelora Panataran Blitar;;Perseta 1970 VS Arema FC;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-465;Piala Soeratin U-17;22/08/2026;22/08/2026;Lapangan yonkav 3 tank, Singosari;;Blayu FC VS Mojosari Putra;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-466;Piala Soeratin U-17;21/08/2026;21/08/2026;Jember Sport Garden;;Persebo 1964 VS Persid Jember;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-467;Piala Soeratin U-17;21/08/2026;21/08/2026;Gelora Muhammad Saleh, Situbondo;;PS HW Ponorogo VS PSSS Situbondo;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-468;Piala Soeratin U-17;21/08/2026;21/08/2026;Lapangan Ngeronggo Kediri;;Inter Pemuda Kediri VS Nganjuk Ladang;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-469;Piala Soeratin U-17;21/08/2026;21/08/2026;Stadion Menak Sopal;;Perspa Pacitan VS Persiga Trenggalek;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-470;Piala Soeratin U-17;21/08/2026;21/08/2026;Stadion Merdeka Jombang;;Naga Emas Asri VS PSID Jombang;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-471;Piala Soeratin U-17;21/08/2026;21/08/2026;Stadion Plumbon Pandaan, Pasuruan;;Persem Mojokerto VS Persekabpas Pasuruan;01:06;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-472;Piala Soeratin U-17;21/08/2026;21/08/2026;Stadion Diponegoro Banyuwangi;;Mitra Surabaya VS Persewangi Banyuwangi;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-473;Piala Soeratin U-17;21/08/2026;21/08/2026;Stadion Plumbon Pandaan, Pasuruan;;Bajul Ijo VS eLKISI FC;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-474;Piala Soeratin U-17;21/08/2026;21/08/2026;Lapangan Ngeronggo Kediri;;Persela Lamongan VS AC Majapahit;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-475;Piala Soeratin U-17;21/08/2026;21/08/2026;Stadion Merdeka Jombang;;Kediri United VS Bumi Wali FC;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-476;Piala Soeratin U-17;21/08/2026;21/08/2026;Stadion Diponegoro Banyuwangi;;Persikapro Probolinggo VS Persebo Muda;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-477;Piala Soeratin U-17;21/08/2026;21/08/2026;Gelora Muhammad Saleh, Situbondo;;Hizbul Wathan FC VS Pasuruan United;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-478;Piala Soeratin U-17;21/08/2026;21/08/2026;Jember Sport Garden;;Persipro 1954 VS PSPK Pasuruan;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-479;Piala Soeratin U-17;21/08/2026;21/08/2026;Stadion Menak Sopal;;Blitar Poetra VS PSBR Kota Blitar;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-480;Piala Soeratin U-17;20/08/2026;20/08/2026;Gelora Panataran Blitar;;Perseta 1970 VS PSBI Blitar;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-481;Piala Soeratin U-17;20/08/2026;20/08/2026;Lapangan yonkav 3 tank, Singosari;;Blayu FC VS Malang United;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-482;Piala Soeratin U-17;20/08/2026;20/08/2026;Lapangan Ngeronggo Kediri;;AC Majapahit VS Inter Pemuda Kediri;00:09;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-483;Piala Soeratin U-17;20/08/2026;20/08/2026;Lapangan Ngeronggo Kediri;;Nganjuk Ladang VS Madiun Putra;04:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-484;Piala Soeratin U-17;20/08/2026;20/08/2026;Gelora Panataran Blitar;;Arema FC VS Persedikab;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-485;Piala Soeratin U-17;20/08/2026;20/08/2026;Lapangan yonkav 3 tank, Singosari;;Mojosari Putra VS Putra Bhirawa;00:06;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-486;Piala Soeratin U-17;19/08/2026;19/08/2026;Stadion Plumbon Pandaan, Pasuruan;;Bajul Ijo VS Persem Mojokerto;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-487;Piala Soeratin U-17;19/08/2026;19/08/2026;Gelora Panataran Blitar;;PSBI Blitar VS Arema FC;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-488;Piala Soeratin U-17;19/08/2026;19/08/2026;Lapangan Ngeronggo Kediri;;Nganjuk Ladang VS AC Majapahit;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-489;Piala Soeratin U-17;19/08/2026;19/08/2026;Gelora Muhammad Saleh, Situbondo;;PSSS Situbondo VS Hizbul Wathan FC;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-490;Piala Soeratin U-17;19/08/2026;19/08/2026;Stadion Menak Sopal;;Persiga Trenggalek VS Blitar Poetra;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-491;Piala Soeratin U-17;19/08/2026;19/08/2026;Jember Sport Garden;;Persid Jember VS Persipro 1954;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-492;Piala Soeratin U-17;19/08/2026;19/08/2026;Stadion Diponegoro Banyuwangi;;Persewangi Banyuwangi VS Persikapro Probolinggo;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-493;Piala Soeratin U-17;19/08/2026;19/08/2026;Stadion Merdeka Jombang;;Bumi Wali FC VS Naga Emas Asri;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-494;Piala Soeratin U-17;19/08/2026;19/08/2026;Lapangan Ngeronggo Kediri;;Madiun Putra VS Persela Lamongan;00:06;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-495;Piala Soeratin U-17;19/08/2026;19/08/2026;Stadion Diponegoro Banyuwangi;;Persebo Muda VS Mitra Surabaya;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-496;Piala Soeratin U-17;19/08/2026;19/08/2026;Gelora Muhammad Saleh, Situbondo;;Pasuruan United VS PS HW Ponorogo;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-497;Piala Soeratin U-17;19/08/2026;19/08/2026;Stadion Menak Sopal;;PSBR Kota Blitar VS Perspa Pacitan;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-498;Piala Soeratin U-17;19/08/2026;19/08/2026;Gelora Panataran Blitar;;Persedikab VS Perseta 1970;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-499;Piala Soeratin U-17;19/08/2026;19/08/2026;Stadion Merdeka Jombang;;PSID Jombang VS Kediri United;05:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-500;Piala Soeratin U-17;19/08/2026;19/08/2026;Stadion Plumbon Pandaan, Pasuruan;;eLKISI FC VS Asifa Malang;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-501;Piala Soeratin U-17;19/08/2026;19/08/2026;Jember Sport Garden;;PSPK Pasuruan VS Persebo 1964;02:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-502;Piala Soeratin U-17;18/08/2026;18/08/2026;Lapangan yonkav 3 tank, Singosari;;Malang United VS Mojosari Putra;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-503;Piala Soeratin U-17;18/08/2026;18/08/2026;Lapangan yonkav 3 tank, Singosari;;Putra Bhirawa Kediri VS Blayu FC;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-504;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Semeru Lumajang;;PSIL Lumajang VS Arekmalang;07:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-505;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Semen Gresik;;Arek Simo Gresia FC VS Bojonegoro FC;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-506;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Untung Surapati;;Persekap Pasuruan VS Deltras;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-507;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Ketonggo Ngawi;;Persinga Ngawi VS Persemag Magetan;05:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-508;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Gelora Bangkalan;;Perseba Bangkalan VS Gresik United;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-509;Piala Soeratin U-17;16/08/2026;16/08/2026;Gelora Ratu Pamelingan;;Persepam Pamekasan VS Persebaya Surabaya;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-510;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Mini Gayam;;Persibo Bojonegoro VS PS Mojokerto Putra;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-511;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Semeru Lumajang;;Persema Malang VS Gen-B Mojokerto;00:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-512;Piala Soeratin U-17;16/08/2026;16/08/2026;Gelora Ratu Pamelingan;;Perssu Madura City VS Persesa Sampang;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-513;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Mini Gayam;;Ngawi FC VS PSBK Kota Blitar;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-514;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Ketonggo Ngawi;;Triple’s Kediri VS Mojokerto FC;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-515;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Semen Gresik;;Persik Kediri VS UNESA FC;01:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-516;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Gelora Bangkalan;;Lamongan FC VS Persida Sidoarjo;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-517;Piala Soeratin U-17;16/08/2026;16/08/2026;Stadion Untung Surapati;;Persekam Metro VS Akor FC;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-518;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Semeru Lumajang;;Persema Malang VS PSIL Lumajang;03:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-519;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Gelora Bangkalan;;Lamongan FC VS Perseba Bangkalan;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-520;Piala Soeratin U-17;14/08/2026;14/08/2026;Gelora Ratu Pamelingan;;Perssu Madura City VS Persepam Pamekasan;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-521;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Mini Gayam;;Ngawi FC VS Persibo Bojonegoro;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-522;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Semen Gresik;;Persik Kediri VS Arek Simo Gresia FC;01:02;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-523;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Ketonggo Ngawi;;Triple’s Kediri VS Persinga Ngawi;00:07;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-524;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Untung Surapati;;Persekam Metro VS Persekap Pasuruan;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-525;Piala Soeratin U-17;14/08/2026;14/08/2026;Gelora Ratu Pamelingan;;Persesa Sampang VS Persebaya Surabaya;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-526;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Semeru Lumajang;;Gen-B Mojokerto VS Arekmalang;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-527;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Mini Gayam;;PSBK Kota Blitar VS PS Mojokerto Putra;00:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-528;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Gelora Bangkalan;;Persida Sidoarjo VS Gresik United;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-529;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Ketonggo Ngawi;;Mojokerto FC VS Persemag Magetan;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-530;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Untung Surapati;;Akor FC VS Deltras;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-531;Piala Soeratin U-17;14/08/2026;14/08/2026;Stadion Semen Gresik;;UNESA FC VS Bojonegoro FC;00:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-532;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Gelora Bangkalan;;Perseba Bangkalan VS Persida Sidoarjo;00:04;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-533;Piala Soeratin U-17;12/08/2026;12/08/2026;Gelora Ratu Pamelingan;;Persepam Pamekasan VS Persesa Sampang;02:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-534;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Ketonggo Ngawi;;Persinga Ngawi VS Mojokerto FC;03:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-535;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Semeru Lumajang;;PSIL Lumajang VS Gen-B Mojokerto;01:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-536;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Untung Surapati;;Persekap Pasuruan VS Akor FC;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-537;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Mini Gayam;;Persibo Bojonegoro VS PSBK Kota Blitar;04:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-538;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Semen Gresik;;Arek Simo Gresia FC VS UNESA FC;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-539;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Mini Gayam;;PS Mojokerto Putra VS Ngawi FC;02:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-540;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Untung Surapati;;Deltras VS Persekam Metro;00:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-541;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Semen Gresik;;Bojonegoro FC VS Persik Kediri;01:01;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-542;Piala Soeratin U-17;12/08/2026;12/08/2026;Gelora Ratu Pamelingan;;Persebaya Surabaya VS Perssu Madura City;03:00;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-543;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Ketonggo Ngawi;;Persemag Magetan VS Triple’s Kediri;02:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-544;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Gelora Bangkalan;;Gresik United VS Lamongan FC;03:03;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U17-545;Piala Soeratin U-17;12/08/2026;12/08/2026;Stadion Semeru Lumajang;;Arekmalang VS Persema Malang;00:05;https://pssijatim.com/page-piala-soeratin-u-17
+SOERATIN-U13-001;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Secaba Jember;Grup B;PS HW Babat VS Turangga FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-002;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Yonif 509, Jember;Grup D;Bangkalan Soccer Academy VS Putra Manggala;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-003;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Brigif Bawah, Jember;Grup H;Phoenix Mojokerto FC VS Argent Genteng;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-004;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Brigif Atas, Jember;Grup F;Football Class VS Putra Jaya Blitar;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-005;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Secaba Jember;Grup C;Bima Putra Blitar VS Samudra FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-006;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Secaba Jember;Grup A;SSB ESGE VS SSB BMK Kedungadem;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-007;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Brigif Bawah, Jember;Grup H;Gelora Putra Delta VS Azka Darma Perkasa;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-008;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Yonif 509, Jember;Grup D;Putra Surabaya VS SSB Sindogres;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-009;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Brigif Atas, Jember;Grup F;Arema FC VS Arseko FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-010;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Yonif 509, Jember;Grup E;BAFA VS POGRES;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-011;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Secaba Jember;Grup C;Mahesa Dharma VS PO RIO;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-012;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Brigif Bawah, Jember;Grup I;Perseb Banyuanyar VS SSB Satria Perkasa;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-013;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Brigif Atas, Jember;Grup G;SSB Sinar Mas VS Diklat Malang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-014;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Brigif Atas, Jember;Grup G;Al Rayyan VS ABSA Pasuruan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-015;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Brigif Bawah, Jember;Grup I;Dhoger Gresfosta VS Garuda Jaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-016;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Yonif 509, Jember;Grup E;Persebaya Surabaya VS Surya Muda;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-017;Piala Soeratin U-13;08/01/2024;08/01/2024;Lapangan Secaba Jember;Grup B;Belalang APJ VS SSB Permata Kampak;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-018;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Secaba Jember;Grup A;SSB BMK Kedungadem VS EL FAZA;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-019;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Brigif Atas, Jember;Grup F;Putra Jaya VS Arseko FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-020;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Yonif 509, Jember;Grup D;Putra Manggala VS SSB Sindogres;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-021;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Brigif Bawah, Jember;Grup H;Argent Genteng VS Azka Darma Perkasa;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-022;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Secaba Jember;Grup C;Bima Putra Blitar VS Mahesa Dharma;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-023;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Brigif Atas, Jember;Grup G;SSB Sinar Mas VS Al Rayyan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-024;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Brigif Bawah, Jember;Grup I;Perseb Banyuanyar VS Dhoger Gresfosta;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-025;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Yonif 509, Jember;Grup E;BAFA VS Persebaya Surabaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-026;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Secaba Jember;Grup C;Samudra FC VS PO RIO;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-027;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Brigif Atas, Jember;Grup G;Diklat Malang VS ABSA Pasuruan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-028;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Secaba Jember;Grup B;Belalang APJ VS PS HW Babat;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-029;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Yonif 509, Jember;Grup E;POGRES VS Surya Muda;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-030;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Brigif Bawah, Jember;Grup I;SSB Satria Perkasa VS Garuda Jaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-031;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Secaba Jember;Grup B;SSB Permata Kampak VS Turangga FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-032;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Yonif 509, Jember;Grup D;Bangkalan Soccer Academy VS Putra Surabaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-033;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Brigif Bawah, Jember;Grup H;Phoenix Mojokerto FC VS Gelora Putra Delta;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-034;Piala Soeratin U-13;07/01/2024;07/01/2024;Lapangan Brigif Atas, Jember;Grup F;Football Class VS Arema FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-035;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Secaba Jember;Grup C;PO RIO VS Bima Putra;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-036;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Yonif 509, Jember;Grup E;Surya Muda VS BAFA;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-037;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Brigif Bawah, Jember;Grup I;Garuda Jaya VS Perseb Banyuanyar;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-038;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Brigif Atas, Jember;Grup G;ABSA Surabaya VS SSB Sinar Mas;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-039;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Secaba Jember;Grup C;Mahesa Dharma VS Samudra FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-040;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Yonif 509, Jember;Grup E;Persebaya Surabaya VS POGRES;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-041;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Brigif Bawah, Jember;Grup I;Dhoger Gresfosta VS SSB Satria Perkasa;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-042;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Brigif Atas, Jember;Grup G;Al Rayyan VS Diklat Malang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-043;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Secaba Jember;Grup B;Turangga FC VS Belalang APJ;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-044;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Secaba Jember;Grup B;PS HW Babat VS SSB Permata Kampak;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-045;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Yonif 509, Jember;Grup D;SSB Sindogres VS Bangkalan Soccer Academy;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-046;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Brigif Atas, Jember;Grup F;Arseko FC VS Football Class;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-047;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Brigif Bawah, Jember;Grup H;Azka Darma Perkasa VS Phoenix Mojokerto FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-048;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Secaba Jember;Grup A;EL FAZA VS SSB ESGE;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-049;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Brigif Atas, Jember;Grup F;Arema FC VS Putra Jaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-050;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Yonif 509, Jember;Grup D;Putra Surabaya VS Putra Manggala;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-051;Piala Soeratin U-13;06/01/2024;06/01/2024;Lapangan Brigif Bawah, Jember;Grup H;Gelora Putra Delta VS Argent Genteng;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-052;Piala Soeratin U-13;10/08/2025;10/08/2025;Stadion Surajaya Lamongan;;Persebaya Surabaya VS Medi Soccer School Tulungagung;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-053;Piala Soeratin U-13;10/08/2025;10/08/2025;Stadion Surajaya Lamongan;;Deltras VS MTM Tumpang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-054;Piala Soeratin U-13;08/08/2025;08/08/2025;Stadion Surajaya Lamongan;;Medi Soccer School VS Deltras Sidoarjo;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-055;Piala Soeratin U-13;08/08/2025;08/08/2025;Stadion Surajaya Lamongan;;MTM Tumpang VS Persebaya Surabaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-056;Piala Soeratin U-13;06/08/2025;06/08/2025;N/A;;Persebaya Surabaya VS SSB Airlangga Kab. Kediri;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-057;Piala Soeratin U-13;06/08/2025;06/08/2025;N/A;;Persema Malang VS Deltras Sidoarjo;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-058;Piala Soeratin U-13;06/08/2025;06/08/2025;N/A;;SSB Laga Sota Pamekasan VS Medi Soccer School Tulungagung;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-059;Piala Soeratin U-13;06/08/2025;06/08/2025;N/A;;MTM Tumpang Kab. Blitar VS Putra Garuda Lumajang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-060;Piala Soeratin U-13;04/08/2025;04/08/2025;N/A;;Medi Soccer School Tulungagung VS SSB Sindogres Gresik;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-061;Piala Soeratin U-13;04/08/2025;04/08/2025;N/A;;Persela Lamongan VS SSB Airlangga Kab. Kediri;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-062;Piala Soeratin U-13;04/08/2025;04/08/2025;N/A;;Ricky Nelson Academy VS Putra Garuda Lumajang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-063;Piala Soeratin U-13;04/08/2025;04/08/2025;N/A;;Deltras Sidoarjo VS Biting Putra Jaya Jember;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-064;Piala Soeratin U-13;04/08/2025;04/08/2025;N/A;;Narayana Lamongan VS SSB Laga Sota Pamekasan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-065;Piala Soeratin U-13;04/08/2025;04/08/2025;N/A;;Persebaya Surabaya VS Balenos Nganjuk;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-066;Piala Soeratin U-13;04/08/2025;04/08/2025;N/A;;Benteng FC Ngawi VS MTM Tumpang Kab. Blitar;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-067;Piala Soeratin U-13;04/08/2025;04/08/2025;N/A;;Bima Putra Kota Blitar VS Persema Malang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-068;Piala Soeratin U-13;02/08/2025;02/08/2025;Stadion Surajaya Lamongan;Grup H;Persela Lamongan VS SSB Superkids Probolinggo;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-069;Piala Soeratin U-13;02/08/2025;02/08/2025;Stadion Surajaya Lamongan;Grup H;Denny Soccer Academy VS Suryanaga Kota Pasuruan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-070;Piala Soeratin U-13;01/08/2025;01/08/2025;Stadion Surajaya Lamongan;Grup H;Suryanaga Kota Pasuruan VS Persela Lamongan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-071;Piala Soeratin U-13;01/08/2025;01/08/2025;Stadion Surajaya Lamongan;Grup H;SSB Superkids Probolinggo VS Biting Putra Jaya Jember;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-072;Piala Soeratin U-13;31/07/2025;31/07/2025;Gelora Lebakwono Lamongan;Grup E;Balenos Nganjuk VS Bima Putra;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-073;Piala Soeratin U-13;31/07/2025;31/07/2025;Lapangan Gajah Mada, Lamongan;Grup G;SSB Airlangga VS AB Perkasa Jombang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-074;Piala Soeratin U-13;31/07/2025;31/07/2025;Stadion Surajaya Lamongan;Grup H;SSB Superkids Probolinggo VS Denny Soccer Academy;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-075;Piala Soeratin U-13;31/07/2025;31/07/2025;Lapangan Choirul Huda, Lamongan;Grup F;Putra Satria Tuban VS Arseko Bondowoso;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-076;Piala Soeratin U-13;31/07/2025;31/07/2025;Lapangan Choirul Huda, Lamongan;Grup F;Persebaya Surabaya VS Persema Malang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-077;Piala Soeratin U-13;31/07/2025;31/07/2025;Gelora Lebakwono Lamongan;Grup E;Bafa Kota Batu VS PGMS Situbondo;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-078;Piala Soeratin U-13;31/07/2025;31/07/2025;Lapangan Gajah Mada, Lamongan;Grup G;Deltras VS Phoenix Mojokerto FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-079;Piala Soeratin U-13;31/07/2025;31/07/2025;Stadion Surajaya Lamongan;Grup H;Persela Lamongan VS Biting Putra Jaya Jember;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-080;Piala Soeratin U-13;31/07/2025;31/07/2025;Lapangan Gajah Mada, Lamongan;Grup B;Persip Pesanggaran VS Taruna Bojonegoro;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-081;Piala Soeratin U-13;31/07/2025;31/07/2025;Lapangan Choirul Huda, Lamongan;Grup C;Putra Utama Kediri VS Medi Soccer School;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-082;Piala Soeratin U-13;31/07/2025;31/07/2025;Gelora Lebakwono Lamongan;Grup D;SSB Sindogres Gresik VS Mitra Bangkalan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-083;Piala Soeratin U-13;31/07/2025;31/07/2025;Stadion Surajaya Lamongan;Grup A;Narayana Lamongan VS MTM Tumpang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-084;Piala Soeratin U-13;31/07/2025;31/07/2025;Lapangan Choirul Huda, Lamongan;Grup C;Pelita Jabon Putra VS Putra Garuda Lumajang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-085;Piala Soeratin U-13;31/07/2025;31/07/2025;Lapangan Gajah Mada, Lamongan;Grup B;Laga Sota Pamekasan VS Benteng FC Ngawi;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-086;Piala Soeratin U-13;31/07/2025;31/07/2025;Gelora Lebakwono Lamongan;Grup D;Ricky Nelson Academy VS Massanda Kab. MALANG;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-087;Piala Soeratin U-13;31/07/2025;31/07/2025;Stadion Surajaya Lamongan;Grup A;Putra Pandaan VS Maron Jaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-088;Piala Soeratin U-13;29/07/2025;29/07/2025;Lapangan Choirul Huda, Lamongan;Grup F;Persebaya Surabaya VS Putra Satria Tuban;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-089;Piala Soeratin U-13;29/07/2025;29/07/2025;Gelora Lebakwono Lamongan;Grup E;Bafa Kota Batu VS Balenos Nganjuk;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-090;Piala Soeratin U-13;29/07/2025;29/07/2025;Lapangan Gajah Mada, Lamongan;Grup G;Deltras VS SSB Airlangga;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-091;Piala Soeratin U-13;29/07/2025;29/07/2025;Stadion Surajaya Lamongan;Grup H;Biting Putra Jaya Jember VS Suryanaga Kota Pasuruan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-092;Piala Soeratin U-13;29/07/2025;29/07/2025;Lapangan Choirul Huda, Lamongan;Grup F;Persema Malang VS Arseko Bondowoso;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-093;Piala Soeratin U-13;29/07/2025;29/07/2025;Stadion Surajaya Lamongan;Grup H;Denny Soccer Academy VS Persela Lamongan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-094;Piala Soeratin U-13;29/07/2025;29/07/2025;Lapangan Gajah Mada, Lamongan;Grup G;Phoenix Mojokerto FC VS AB Perkasa Jombang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-095;Piala Soeratin U-13;29/07/2025;29/07/2025;Gelora Lebakwono Lamongan;Grup E;PGMS Situbondo VS Bima Putra;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-096;Piala Soeratin U-13;29/07/2025;29/07/2025;Gelora Lebakwono Lamongan;Grup D;Ricky Nelson Academy VS SSB Sindogres Gresik;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-097;Piala Soeratin U-13;29/07/2025;29/07/2025;Lapangan Choirul Huda, Lamongan;Grup C;Pelita Jabon Putra VS Putra Utama Kediri;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-098;Piala Soeratin U-13;29/07/2025;29/07/2025;Stadion Surajaya Lamongan;Grup A;Putra Pandaan VS Narayana Lamongan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-099;Piala Soeratin U-13;29/07/2025;29/07/2025;Lapangan Gajah Mada, Lamongan;Grup B;Laga Sota Pamekasan VS Persip Pesanggaran;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-100;Piala Soeratin U-13;29/07/2025;29/07/2025;Lapangan Choirul Huda, Lamongan;Grup C;Putra Garuda Lumajang VS Medi Soccer School;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-101;Piala Soeratin U-13;29/07/2025;29/07/2025;Gelora Lebakwono Lamongan;Grup D;Massanda Kab. MALANG VS Mitra Bangkalan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-102;Piala Soeratin U-13;29/07/2025;29/07/2025;Stadion Surajaya Lamongan;Grup A;Maron Jaya VS MTM Tumpang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-103;Piala Soeratin U-13;29/07/2025;29/07/2025;Lapangan Gajah Mada, Lamongan;Grup B;Benteng FC Ngawi VS Taruna Bojonegoro;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-104;Piala Soeratin U-13;28/07/2025;28/07/2025;Stadion Surajaya Lamongan;Grup H;Biting Putra Jaya Jember VS Denny Soccer Academy;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-105;Piala Soeratin U-13;28/07/2025;28/07/2025;Gelora Lebakwono Lamongan;Grup E;Balenos Nganjuk VS PGMS Situbondo;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-106;Piala Soeratin U-13;28/07/2025;28/07/2025;Lapangan Gajah Mada, Lamongan;Grup G;SSB Airlangga VS Phoenix Mojokerto FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-107;Piala Soeratin U-13;28/07/2025;28/07/2025;Lapangan Choirul Huda, Lamongan;Grup F;Putra Satria Tuban VS Persema Malang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-108;Piala Soeratin U-13;28/07/2025;28/07/2025;Lapangan Gajah Mada, Lamongan;Grup G;AB Perkasa Jombang VS Deltras;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-109;Piala Soeratin U-13;28/07/2025;28/07/2025;Lapangan Choirul Huda, Lamongan;Grup F;Arseko Bondowoso VS Persebaya Surabaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-110;Piala Soeratin U-13;28/07/2025;28/07/2025;Stadion Surajaya Lamongan;Grup H;Suryanaga Kota Pasuruan VS SSB Superkids Probolinggo;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-111;Piala Soeratin U-13;28/07/2025;28/07/2025;Gelora Lebakwono Lamongan;Grup E;Bima Putra VS Bafa Kota Batu;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-112;Piala Soeratin U-13;28/07/2025;28/07/2025;Stadion Surajaya Lamongan;Grup A;Narayana Lamongan VS Maron Jaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-113;Piala Soeratin U-13;28/07/2025;28/07/2025;Lapangan Choirul Huda, Lamongan;Grup C;Putra Utama Kediri VS Putra Garuda Lumajang;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-114;Piala Soeratin U-13;28/07/2025;28/07/2025;Lapangan Gajah Mada, Lamongan;Grup B;Persip Pesanggaran VS Benteng FC Ngawi;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-115;Piala Soeratin U-13;28/07/2025;28/07/2025;Gelora Lebakwono Lamongan;Grup D;SSB Sindogres Gresik VS Massanda Kab. MALANG;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-116;Piala Soeratin U-13;28/07/2025;28/07/2025;Lapangan Choirul Huda, Lamongan;Grup C;Medi Soccer School VS Pelita Jabon Putra;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-117;Piala Soeratin U-13;28/07/2025;28/07/2025;Stadion Surajaya Lamongan;Grup A;MTM Tumpang VS Putra Pandaan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-118;Piala Soeratin U-13;28/07/2025;28/07/2025;Lapangan Gajah Mada, Lamongan;Grup B;Taruna Bojonegoro VS Laga Sota Pamekasan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-119;Piala Soeratin U-13;28/07/2025;28/07/2025;Gelora Lebakwono Lamongan;Grup D;Mitra Bangkalan VS Ricky Nelson Academy;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-120;Piala Soeratin U-13;13/09/2026;13/09/2026;Jember Sport Garden;;Persebaya Surabaya VS Persida Sidoarjo;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-121;Piala Soeratin U-13;13/09/2026;13/09/2026;Jember Sport Garden;;Malang United VS Pordes FC Jember;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-122;Piala Soeratin U-13;12/09/2026;12/09/2026;Jember Sport Garden;;Persida Sidoarjo VS Pordes FC Jember;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-123;Piala Soeratin U-13;12/09/2026;12/09/2026;Jember Sport Garden;;Malang United VS Persebaya Surabaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-124;Piala Soeratin U-13;10/09/2026;10/09/2026;Stadion Notohadinegoro Jember;;Pordes FC Jember VS PS Karya Muda;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-125;Piala Soeratin U-13;10/09/2026;10/09/2026;Stadion Notohadinegoro Jember;;Gresik United VS Persida Sidoarjo;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-126;Piala Soeratin U-13;10/09/2026;10/09/2026;Stadion Notohadinegoro Jember;;Citra Youth Star VS Persebaya Surabaya;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-127;Piala Soeratin U-13;10/09/2026;10/09/2026;Stadion Notohadinegoro Jember;;Balenos FC VS Malang United;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-128;Piala Soeratin U-13;09/09/2026;09/09/2026;Lapangan Jenggawah, Jember;;Persebaya Surabaya VS Muda Perkasa;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-129;Piala Soeratin U-13;09/09/2026;09/09/2026;Stadion Notohadinegoro Jember;;Ansor Putra Mas VS PS Karya Muda;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-130;Piala Soeratin U-13;09/09/2026;09/09/2026;Lapangan Jenggawah, Jember;;Citra Youth Star VS Watesnegoro SSC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-131;Piala Soeratin U-13;09/09/2026;09/09/2026;Stadion Notohadinegoro Jember;;Pordes FC Jember VS Cahaya Muda;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-132;Piala Soeratin U-13;09/09/2026;09/09/2026;Lapangan Jenggawah, Jember;;Malang United VS Absa Pasuruan;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-133;Piala Soeratin U-13;09/09/2026;09/09/2026;Stadion Notohadinegoro Jember;;Persida Sidoarjo VS Bima Putra Kota Blitar;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-134;Piala Soeratin U-13;09/09/2026;09/09/2026;Lapangan Jenggawah, Jember;;Balenos FC VS Benteng FC;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U13-135;Piala Soeratin U-13;09/09/2026;09/09/2026;Stadion Notohadinegoro Jember;;Gresik United VS Tunas 92 Penetaban;;https://pssijatim.com/page-piala-soeratin-u-13
+SOERATIN-U15-001;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Pagu Kediri;Grup H;Bangkalan Soccer Academy VS Putra Soerapati;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-002;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Ngino Kediri;Grup C;Pesad Centre VS Bintang Putra;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-003;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Puhjarak Kediri;Grup G;SSB Porass VS Gempur;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-004;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Sitimerto Kediri;Grup E;Ansor Putra Mas VS Bima Putra Blitar;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-005;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Pagu Kediri;Grup H;Persela FA VS Tulungagung Putra;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-006;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Ngino Kediri;Grup C;Biting Putra Jaya VS Pelindo;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-007;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Sitimerto Kediri;Grup E;Young Star VS Majapahit Soccer Academy;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-008;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Puhjarak Kediri;Grup G;Persedikab VS Bhinneka Indonesia;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-009;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Pagu Kediri;Grup A;Al-Fath VS PS Maron Jaya;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-010;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Pagu Kediri;Grup A;Boca Junior VS Indonesia Muda;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-011;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Puhjarak Kediri;Grup B;Naga Emas Asri VS Mitratama FC;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-012;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Ngino Kediri;Grup D;Football Class VS Bimantara;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-013;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Sitimerto Kediri;Grup F;SSB Masel VS SSB Satria Perkasa;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-014;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Pagu Kediri;Grup I;SSB ESGE VS PS Putra Jaya;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-015;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Ngino Kediri;Grup D;Persebaya Surabaya VS Bina Putra FC;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-016;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Puhjarak Kediri;Grup B;Putra Patria VS SKB Gudo;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-017;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Sitimerto Kediri;Grup F;Golden Soccer Academy VS SSB Petrokimia Putra;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-018;Piala Soeratin U-15;08/01/2024;08/01/2024;Lapangan Pagu Kediri;Grup I;Ketapang FC VS New Gesic;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-019;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Pagu Kediri;Grup I;PS Putra Jaya VS New Gesic;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-020;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Puhjarak Kediri;Grup B;Mitratama FC VS SKB Gudo;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-021;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Sitimerto Kediri;Grup F;SSB Satria Perkasa VS SSB Petrokimia Putra;01:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-022;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Ngino Kediri;Grup D;Bimantara VS Bina Putra FC;01:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-023;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Pagu Kediri;Grup H;Bangkalan Soccer Academy VS Persela FA;00:04;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-024;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Ngino Kediri;Grup C;Pesad Centre VS Biting Putra Jaya;00:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-025;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Puhjarak Kediri;Grup G;SSB Porass VS Persedikab;03:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-026;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Sitimerto Kediri;Grup E;Ansor Putra Mas VS Young Star;02:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-027;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Pagu Kediri;Grup H;Putra Soerapati VS Tulungagung Putra;03:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-028;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Pagu Kediri;Grup A;Al-Fath VS Boca Junior;01:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-029;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Sitimerto Kediri;Grup E;Bima Putra Blitar VS Majapahit Soccer Academy;03:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-030;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Puhjarak Kediri;Grup G;Gempur VS Bhinneka Indonesia;01:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-031;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Ngino Kediri;Grup C;Bintang Putra VS Pelindo;01:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-032;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Pagu Kediri;Grup A;PS Maron Jaya VS Indonesia Muda;00:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-033;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Sitimerto Kediri;Grup F;SSB Masel VS Golden Soccer Academy;00:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-034;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Puhjarak Kediri;Grup B;Naga Emas Asri VS Putra Patria;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-035;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Ngino Kediri;Grup D;Football Class VS Persebaya Surabaya;02:05;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-036;Piala Soeratin U-15;07/01/2024;07/01/2024;Lapangan Pagu Kediri;Grup I;SSB ESGE VS Ketapang FC;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-037;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Pagu Kediri;Grup I;New Gesic VS SSB ESGE;01:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-038;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Ngino Kediri;Grup D;Bina Putra FC VS Football Class;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-039;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Puhjarak Kediri;Grup B;SKB Gudo VS Naga Emas Asri;01:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-040;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Sitimerto Kediri;Grup F;SSB Petrokimia Putra VS SSB Masel;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-041;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Pagu Kediri;Grup I;Ketapang FC VS PS Putra Jaya;05:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-042;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Puhjarak Kediri;Grup B;Putra Patria VS Mitratama FC;02:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-043;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Sitimerto Kediri;Grup F;Golden Soccer Academy VS SSB Satria Perkasa;02:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-044;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Ngino Kediri;Grup D;Persebaya Surabaya VS Bimantara;04:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-045;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Pagu Kediri;Grup H;Tulungagung Putra VS Bangkalan Soccer Academy;01:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-046;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Pagu Kediri;Grup H;Persela FA VS Putra Soerapati;04:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-047;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Ngino Kediri;Grup C;Pelindo VS Pesad Centre;08:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-048;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Sitimerto Kediri;Grup E;Majapahit Soccer Academy VS Ansor Putra Mas;04:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-049;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Puhjarak Kediri;Grup G;Bhinneka Indonesia VS SSB Porass;01:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-050;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Pagu Kediri;Grup A;Indonesia Muda VS Al-Fath;01:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-051;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Ngino Kediri;Grup C;Biting Putra Jaya VS Bintang Putra;;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-052;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Puhjarak Kediri;Grup G;Persedikab VS Gempur;08:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-053;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Sitimerto Kediri;Grup E;Young Star VS Bima Putra Blitar;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-054;Piala Soeratin U-15;06/01/2024;06/01/2024;Lapangan Pagu Kediri;Grup A;Boca Junior VS PS Maron Jaya;04:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-055;Piala Soeratin U-15;06/12/2024;06/12/2024;Gelora Bung Sumardji, Nganjuk;Final Juara 1;Deltras Sidoarjo VS Akademi xxxxx Ngunut;03:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-056;Piala Soeratin U-15;06/12/2024;06/12/2024;Lapangan Grojogan, Nganjuk;Final Juara 3;Persedikab VS Al-Fath Kediri;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-057;Piala Soeratin U-15;05/12/2024;05/12/2024;Gelora Bung Sumardji, Nganjuk;Semifinal;Persedikab Kediri VS Deltras Sidoarjo;03:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-058;Piala Soeratin U-15;05/12/2024;05/12/2024;Lapangan Grojogan, Nganjuk;Semifinal;Akademi Xxxxx Ngunut VS Al-Fath;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-059;Piala Soeratin U-15;04/12/2024;04/12/2024;Stadion Anjuk Ladang, Nganjuk;Babak 6 Besar;Bhayangkara FC VS Akademi XxxxxNgunut;03:05;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-060;Piala Soeratin U-15;04/12/2024;04/12/2024;Stadion Anjuk Ladang, Nganjuk;Babak 6 Besar;Pesawat FC Jombang VS Persedikab Kediri;02:04;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-061;Piala Soeratin U-15;10/08/2025;10/08/2025;Stadion Surajaya Lamongan;Final Juara 1;Deltras Sidoarjo VS Indonesia Muda Surabaya;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-062;Piala Soeratin U-15;10/08/2025;10/08/2025;Stadion Surajaya Lamongan;Final Juara 3;Katapang FC Banyuwangi VS Dampit FC Malang;01:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-063;Piala Soeratin U-15;08/08/2025;08/08/2025;N/A;Semifinal;Indonesia Muda Surabaya VS Dampit FC Malang;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-064;Piala Soeratin U-15;08/08/2025;08/08/2025;N/A;Semifinal;Katapang FC Banyuwangi VS Deltras Sidoarjo;02:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-065;Piala Soeratin U-15;06/08/2025;06/08/2025;N/A;Babak 6 Besar;Indonesia Muda Surabaya VS Azka Dharma Perkasa Jombang;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-066;Piala Soeratin U-15;06/08/2025;06/08/2025;N/A;Babak 6 Besar;Katapang FC Banyuwangi VS Aris Budi Soccer Academy;04:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-067;Piala Soeratin U-15;04/08/2025;04/08/2025;N/A;10 Besar;Pordes FC Jember VS Deltras;00:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-068;Piala Soeratin U-15;04/08/2025;04/08/2025;N/A;10 Besar;Dampit FC Malang VS IM Bojonegoro;02:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-069;Piala Soeratin U-15;04/08/2025;04/08/2025;N/A;10 Besar;Azka Dharma Perkasa Jombang VS Garuda Jaya Kab. Kediri;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-070;Piala Soeratin U-15;04/08/2025;04/08/2025;N/A;10 Besar;Football Class Kota Kediri VS Aris Budi Soccer Academy;01:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-071;Piala Soeratin U-15;02/08/2025;02/08/2025;Lapangan Desa Wonosari Kediri;20 Besar;Jeli Putra Tulungagung VS Garuda Jaya Kab. Kediri;02:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-072;Piala Soeratin U-15;02/08/2025;02/08/2025;Stadion Canda Bhirawa;20 Besar;Ricky Nelson Academy VS Azka Dharma Perkasa Jombang;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-073;Piala Soeratin U-15;02/08/2025;02/08/2025;Lapangan Desa Bloran, Badas Kediri;20 Besar;Deltras VS Turangga FC Lumajang;03:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-074;Piala Soeratin U-15;02/08/2025;02/08/2025;Lapangan Desa Bloran, Badas Kediri;20 Besar;Arema FC VS Pordes FC Jember;02:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-075;Piala Soeratin U-15;02/08/2025;02/08/2025;Stadion Canda Bhirawa;20 Besar;Indonesia Muda Surabaya VS Putra Jaya Blitar;05:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-076;Piala Soeratin U-15;02/08/2025;02/08/2025;Lapangan Desa Wonosari Kediri;20 Besar;SSB PS Rio Pamekasan VS Aris Budi Soccer Academy;00:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-077;Piala Soeratin U-15;02/08/2025;02/08/2025;Lapangan Desa Bloran, Badas Kediri;20 Besar;Benteng FC Ngawi VS IM Bojonegoro;00:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-078;Piala Soeratin U-15;02/08/2025;02/08/2025;Stadion Canda Bhirawa;20 Besar;Football Class Kota Kediri VS Elkisi FA Kab. Mojokerto;00:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-079;Piala Soeratin U-15;02/08/2025;02/08/2025;Stadion Canda Bhirawa;20 Besar;Mahesa Dharma Kab. Kediri VS Katapang FC Banyuwangi;01:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-080;Piala Soeratin U-15;02/08/2025;02/08/2025;Lapangan Desa Bloran, Badas Kediri;20 Besar;Dampit FC Malang VS Pelindo Surabaya;00:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-081;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Desa Bloran, Badas Kediri;Grup G;Gagak Rimang Kab. Kediri VS Persela Lamongan;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-082;Piala Soeratin U-15;31/07/2025;31/07/2025;Stadion Canda Bhirawa;Grup A;Mahesa Dharma Kab. Kediri VS Putra Jaya Blitar;03:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-083;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Ngino Kediri;Grup J;Balenos Nganjuk VS Turangga FC Lumajang;01:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-084;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Desa Wonosari Kediri;Grup E;Garuda Jaya Kab. Kediri VS Bhineka FC Jember;03:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-085;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Pagu Kediri;Grup D;Persidapim Kota Batu VS Ricky Nelson Academy;01:05;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-086;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Pagu Kediri;Grup D;Elkisi FA Kab. Mojokerto VS Perseb Banyuanyar;04:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-087;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Ngino Kediri;Grup H;Dekate FC Bangkalan VS Pordes FC Jember;00:08;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-088;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Desa Wonosari Kediri;Grup E;Putra Pahlawan Sampang VS SSB PS Rio Pamekasan;01:07;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-089;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Desa Bloran, Badas Kediri;Grup G;Arema FC VS Pelindo Surabaya;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-090;Piala Soeratin U-15;31/07/2025;31/07/2025;Stadion Canda Bhirawa;Grup A;Bima Putra VS Buazh Sukomoro Magetan;00:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-091;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Pagu Kediri;Grup C;Football Class Kota Kediri VS Azka Dharma Perkasa Jombang;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-092;Piala Soeratin U-15;31/07/2025;31/07/2025;Stadion Canda Bhirawa;Grup F;Jeli Putra Tulungagung VS Aris Budi Soccer Academy;02:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-093;Piala Soeratin U-15;31/07/2025;31/07/2025;Stadion Canda Bhirawa;Grup F;SSB PSDM Margosuko Tuban VS Gresik United;00:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-094;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Desa Wonosari Kediri;Grup I;IM Bojonegoro VS Putra Pandaan;03:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-095;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Desa Bloran, Badas Kediri;Grup B;Katapang FC Banyuwangi VS Indonesia Muda Surabaya;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-096;Piala Soeratin U-15;31/07/2025;31/07/2025;Lapangan Pagu Kediri;Grup C;Satria Perkasa Madiun VS Arseko Bondowoso;02:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-097;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Pagu Kediri;Grup D;Elkisi FA Kab. Mojokerto VS Persidapim Kota Batu;02:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-098;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Desa Bloran, Badas Kediri;Grup G;Arema FC VS Gagak Rimang Kab. Kediri;04:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-099;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Ngino Kediri;Grup J;Turangga FC Lumajang VS Benteng FC Ngawi;00:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-100;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Desa Wonosari Kediri;Grup E;Putra Pahlawan Sampang VS Garuda Jaya Kab. Kediri;00:04;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-101;Piala Soeratin U-15;29/07/2025;29/07/2025;Stadion Canda Bhirawa;Grup A;Bima Putra VS Mahesa Dharma Kab. Kediri;02:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-102;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Desa Bloran, Badas Kediri;Grup G;Pelindo Surabaya VS Persela Lamongan;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-103;Piala Soeratin U-15;29/07/2025;29/07/2025;Stadion Canda Bhirawa;Grup A;Buazh Sukomoro Magetan VS Putra Jaya Blitar;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-104;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Pagu Kediri;Grup D;Perseb Banyuanyar VS Ricky Nelson Academy;01:04;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-105;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Desa Wonosari Kediri;Grup E;SSB PS Rio Pamekasan VS Bhineka FC Jember;01:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-106;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Ngino Kediri;Grup H;Pordes FC Jember VS Dampit FC Malang;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-107;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Pagu Kediri;Grup C;Satria Perkasa Madiun VS Football Class Kota Kediri;01:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-108;Piala Soeratin U-15;29/07/2025;29/07/2025;Stadion Canda Bhirawa;Grup F;SSB PSDM Margosuko Tuban VS Jeli Putra Tulungagung;01:05;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-109;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Desa Wonosari Kediri;Grup I;Putra Pandaan VS Deltras;00:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-110;Piala Soeratin U-15;29/07/2025;29/07/2025;Stadion Canda Bhirawa;Grup F;Gresik United VS Aris Budi Soccer Academy;02:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-111;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Pagu Kediri;Grup C;Arseko Bondowoso VS Azka Dharma Perkasa Jombang;01:06;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-112;Piala Soeratin U-15;29/07/2025;29/07/2025;Lapangan Desa Bloran, Badas Kediri;Grup B;Indonesia Muda Surabaya VS SSB Diva Dava Probolinggo;05:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-113;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Desa Wonosari Kediri;Grup E;Garuda Jaya Kab. Kediri VS SSB PS Rio Pamekasan;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-114;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Desa Bloran, Badas Kediri;Grup G;Gagak Rimang Kab. Kediri VS Pelindo Surabaya;02:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-115;Piala Soeratin U-15;28/07/2025;28/07/2025;Stadion Canda Bhirawa;Grup A;Mahesa Dharma Kab. Kediri VS Buazh Sukomoro Magetan;04:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-116;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Ngino Kediri;Grup J;Benteng FC Ngawi VS Balenos Nganjuk;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-117;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Pagu Kediri;Grup D;Persidapim Kota Batu VS Perseb Banyuanyar;03:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-118;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Pagu Kediri;Grup D;Ricky Nelson Academy VS Elkisi FA Kab. Mojokerto;01:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-119;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Desa Bloran, Badas Kediri;Grup G;Persela Lamongan VS Arema FC;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-120;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Ngino Kediri;Grup H;Dampit FC Malang VS Dekate FC Bangkalan;08:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-121;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Desa Wonosari Kediri;Grup E;Bhineka FC Jember VS Putra Pahlawan Sampang;11:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-122;Piala Soeratin U-15;28/07/2025;28/07/2025;Stadion Canda Bhirawa;Grup A;Putra Jaya Blitar VS Bima Putra;03:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-123;Piala Soeratin U-15;28/07/2025;28/07/2025;Stadion Canda Bhirawa;Grup F;Jeli Putra Tulungagung VS Gresik United;05:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-124;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Pagu Kediri;Grup C;Football Class Kota Kediri VS Arseko Bondowoso;05:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-125;Piala Soeratin U-15;28/07/2025;28/07/2025;Stadion Canda Bhirawa;Grup F;Aris Budi Soccer Academy VS SSB PSDM Margosuko Tuban;03:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-126;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Pagu Kediri;Grup C;Azka Dharma Perkasa Jombang VS Satria Perkasa Madiun;01:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-127;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Desa Bloran, Badas Kediri;Grup B;SSB Diva Dava Probolinggo VS Katapang FC Banyuwangi;01:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-128;Piala Soeratin U-15;28/07/2025;28/07/2025;Lapangan Desa Wonosari Kediri;Grup I;Deltras VS IM Bojonegoro;03:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-129;Piala Soeratin U-15;13/09/2026;13/09/2026;Jember Sport Garden;Final Juara 1;Persebaya Surabaya VS Deltras Sidoarjo;02:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-130;Piala Soeratin U-15;13/09/2026;13/09/2026;Jember Sport Garden;Final Juara 3;Arunda Malang VS Pordes FC Jember;02:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-131;Piala Soeratin U-15;12/09/2026;12/09/2026;Jember Sport Garden;Semifinal;Pordes FC Jember VS Deltras Sidoarjo;02:03;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-132;Piala Soeratin U-15;12/09/2026;12/09/2026;Jember Sport Garden;Semifinal;Arunda Malang VS Persebaya Surabaya;00:06;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-133;Piala Soeratin U-15;10/09/2026;10/09/2026;Lapangan Glagahwero, Jember;8 Besar;Arema FC VS Deltras Sidoarjo;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-134;Piala Soeratin U-15;10/09/2026;10/09/2026;Lapangan Glagahwero, Jember;8 Besar;Gress One VS Pordes FC Jember;00:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-135;Piala Soeratin U-15;10/09/2026;10/09/2026;Lapangan Glagahwero, Jember;8 Besar;Persebaya Surabaya VS Dharaka FC;06:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-136;Piala Soeratin U-15;10/09/2026;10/09/2026;Lapangan Glagahwero, Jember;8 Besar;Al Rayyan Surabaya VS Arunda Malang;00:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-137;Piala Soeratin U-15;09/09/2026;09/09/2026;Lapangan BRIGIF IX, Jember;16 Besar;Dharaka FC VS eLKISI FC;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-138;Piala Soeratin U-15;09/09/2026;09/09/2026;Lapangan Glagahwero, Jember;16 Besar;Muncul Jaya VS Deltras Sidoarjo;00:02;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-139;Piala Soeratin U-15;09/09/2026;09/09/2026;Lapangan BRIGIF IX, Jember;16 Besar;Persebaya Surabaya VS Balenos FC;02:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-140;Piala Soeratin U-15;09/09/2026;09/09/2026;Lapangan Glagahwero, Jember;16 Besar;Arema FC VS Probolinggo F.A;01:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-141;Piala Soeratin U-15;09/09/2026;09/09/2026;Lapangan BRIGIF IX, Jember;16 Besar;Sejati Football VS Arunda Malang;00:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-142;Piala Soeratin U-15;09/09/2026;09/09/2026;Lapangan Glagahwero, Jember;16 Besar;Pordes FC Jember VS Taufiq Kasrun;01:01;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-143;Piala Soeratin U-15;09/09/2026;09/09/2026;Lapangan BRIGIF IX, Jember;16 Besar;Al Rayyan Surabaya VS Bhineka FC Jember;02:00;https://pssijatim.com/page-piala-soeratin-u-15
+SOERATIN-U15-144;Piala Soeratin U-15;09/09/2026;09/09/2026;Lapangan Glagahwero, Jember;16 Besar;PGP Ponggok VS Gress One;01:01;https://pssijatim.com/page-piala-soeratin-u-15
