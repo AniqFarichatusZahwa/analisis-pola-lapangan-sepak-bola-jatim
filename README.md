@@ -599,3 +599,122 @@ Data tersebut selanjutnya digunakan untuk:
 - Menganalisis persebaran stadion dan lapangan sepak bola.
 - Mengeksplorasi hubungan antara luas lapangan, kapasitas penonton, dan jumlah pertandingan.
 - Menyediakan data untuk dashboard interaktif berbasis Streamlit, termasuk peta persebaran venue.
+
+## 📊 Dashboard Streamlit
+
+Dashboard akan dikembangkan menggunakan **Streamlit** untuk menyajikan hasil analisis aktivitas pertandingan dan karakteristik fasilitas stadion serta lapangan sepak bola di Jawa Timur. Dashboard dirancang agar pengguna dapat mengeksplorasi persebaran venue, membandingkan aktivitas pertandingan antar kompetisi, dan melihat karakteristik fasilitas berdasarkan data yang tersedia.
+
+### Halaman 1 — Activity Overview
+
+Menampilkan ringkasan aktivitas pertandingan yang tercatat dalam dataset.
+
+**Indikator utama:**
+
+- jumlah pertandingan yang tercatat,
+- jumlah venue unik,
+- jumlah kompetisi yang dianalisis,
+- jumlah venue dengan data fasilitas yang tersedia,
+- venue dengan jumlah pertandingan terbanyak,
+- distribusi pertandingan berdasarkan kompetisi.
+
+**Visualisasi:**
+
+- kartu statistik (*KPI cards*),
+- diagram batang 10 venue dengan pertandingan terbanyak,
+- diagram distribusi pertandingan berdasarkan kompetisi,
+- ringkasan kelengkapan data fasilitas.
+
+### Halaman 2 — Venue Distribution Map
+
+Menampilkan peta interaktif persebaran stadion dan lapangan sepak bola di Jawa Timur.
+
+**Filter:**
+
+```text
+Kompetisi
+Periode / Tahun
+Kelompok Usia Soeratin
+Kabupaten / Kota
+Nama Venue
+```
+
+**Visualisasi dan informasi:**
+
+- peta persebaran venue berdasarkan koordinat geografis,
+- ukuran penanda berdasarkan jumlah pertandingan yang tercatat,
+- warna penanda untuk membedakan tingkat aktivitas pertandingan,
+- informasi venue ketika penanda dipilih,
+- detail lokasi, jumlah pertandingan, luas lapangan, dan kapasitas penonton jika tersedia.
+
+Peta digunakan untuk mengidentifikasi persebaran fasilitas dan melihat konsentrasi aktivitas pertandingan berdasarkan lokasi geografis. Venue yang belum memiliki koordinat terverifikasi akan ditampilkan dalam tabel terpisah sampai lokasinya berhasil dilengkapi.
+
+### Halaman 3 — Competition Analysis
+
+Menganalisis dan membandingkan aktivitas pertandingan pada tiga kelompok kompetisi, yaitu Piala Soeratin, Liga 1, dan Piala AFF U-19.
+
+**Filter:**
+
+```text
+Kompetisi
+Periode / Musim
+Kelompok Usia
+Nama Venue
+```
+
+Filter kelompok usia hanya berlaku untuk data Soeratin, sedangkan filter musim digunakan untuk data Liga 1 jika informasi musim tersedia.
+
+**Visualisasi:**
+
+- diagram batang jumlah pertandingan per venue berdasarkan kompetisi,
+- perbandingan distribusi pertandingan Soeratin U-13, U-15, dan U-17,
+- grafik tren jumlah pertandingan per bulan atau tahun jika tanggal tersedia,
+- tabel venue yang digunakan oleh lebih dari satu kompetisi,
+- distribusi pertandingan berdasarkan babak atau level kompetisi jika datanya tersedia.
+
+Analisis ini digunakan untuk mengidentifikasi pola distribusi pertandingan dan perbedaan penggunaan venue pada kompetisi yang tercakup dalam penelitian.
+
+### Halaman 4 — Facility Analysis
+
+Menganalisis karakteristik fasilitas stadion dan lapangan sepak bola serta mengeksplorasi hubungannya dengan jumlah pertandingan yang tercatat.
+
+**Filter:**
+
+```text
+Kabupaten / Kota
+Nama Venue
+Rentang Luas Lapangan
+Rentang Kapasitas Penonton
+```
+
+Filter hanya diterapkan pada atribut yang memiliki data valid.
+
+**Visualisasi:**
+
+- perbandingan kapasitas penonton antar venue,
+- perbandingan luas lapangan berdasarkan data yang tersedia,
+- diagram pencar luas lapangan terhadap jumlah pertandingan,
+- diagram pencar kapasitas penonton terhadap jumlah pertandingan,
+- tabel karakteristik fasilitas beserta jumlah pertandingan yang tercatat,
+- ringkasan kelengkapan data luas dan kapasitas.
+
+Analisis dilakukan secara eksploratif untuk melihat pola hubungan antara karakteristik fasilitas dan aktivitas pertandingan. Hubungan yang ditemukan tidak langsung diinterpretasikan sebagai hubungan sebab-akibat.
+
+### Fitur Tambahan Dashboard
+
+Dashboard juga dirancang untuk menyediakan:
+
+- filter interaktif yang menghubungkan visualisasi dalam setiap halaman,
+- tabel detail data berdasarkan kompetisi dan venue,
+- informasi sumber data dan kelengkapan atribut,
+- indikator data yang belum tersedia atau belum terverifikasi,
+- unduhan data hasil penyaringan jika diperlukan.
+
+### Teknologi Dashboard
+
+| Teknologi | Fungsi |
+|:---|:---|
+| Streamlit | Antarmuka dashboard interaktif |
+| Plotly | Grafik statistik dan visualisasi interaktif |
+| PyDeck / Folium | Visualisasi peta persebaran venue |
+| DuckDB | Pengambilan dan pengolahan data analitik |
+| DuckLake | Penyimpanan data analitik terintegrasi |
