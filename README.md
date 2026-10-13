@@ -37,8 +37,23 @@ Hasil analisis akan disajikan melalui dashboard interaktif berbasis **Streamlit*
 - **Streamlit** — pengembangan dashboard interaktif.
 - **Plotly** — visualisasi data dan peta persebaran venue.
 
-## 🎯 Tujuan Project
+## Tujuan Project
 
-Project ini bertujuan memberikan gambaran mengenai persebaran venue, intensitas aktivitas pertandingan, serta karakteristik fasilitas olahraga berdasarkan data kompetisi yang tersedia.
+Project ini bertujuan membangun sebuah **data warehouse aktivitas pertandingan dan karakteristik fasilitas lapangan sepak bola di Jawa Timur** yang memungkinkan pengguna untuk melihat persebaran venue serta intensitas pertandingan berdasarkan kompetisi dan karakteristik fasilitas.
+
+Analisis diarahkan untuk menjawab pertanyaan seperti:
+
+- Bagaimana persebaran stadion dan lapangan sepak bola yang digunakan dalam kompetisi di Jawa Timur?
+- Venue mana yang memiliki jumlah pertandingan tercatat paling banyak dan paling sedikit?
+- Bagaimana perbandingan aktivitas pertandingan antara Piala Soeratin, Liga 1, dan Piala AFF U-19?
+- Bagaimana distribusi pertandingan Piala Soeratin berdasarkan kelompok usia U-13, U-15, dan U-17?
+- Kabupaten/kota mana yang memiliki konsentrasi venue dengan aktivitas pertandingan paling tinggi?
+- Bagaimana distribusi jumlah pertandingan pada setiap venue berdasarkan kompetisi yang diikuti?
+- Bagaimana perbedaan karakteristik fasilitas, seperti luas lapangan dan kapasitas penonton, ant venue di Jawa Timur?
+- Apakah venue dengan kapasitas penonton lebih besar cenderung memiliki jumlah pertandingan tercatat lebih banyak?
+- Apakah terdapat pola hubungan antara luas lapangan dan intensitas aktivitas pertandingan pada venue yang memiliki data luas?
+- Venue mana yang memiliki aktivitas pertandingan tinggi meskipun kapasitas atau luas fasilitasnya relatif terbatas?
+- Bagaimana pola persebaran venue berdasarkan jumlah pertandingan dan karakteristik fasilitas melalui peta interaktif?
+- Bagaimana integrasi data dari berbagai sumber dapat membantu menghasilkan informasi yang lebih terstruktur mengenai aktivitas pertandingan dan fasilitas sepak bola di Jawa Timur?
 
 **Catatan:** Jumlah pertandingan merepresentasikan aktivitas yang tercatat dalam sumber dan kompetisi yang digunakan. Angka tersebut tidak serta-merta menggambarkan seluruh pemanfaatan lapangan sepak bola di Jawa Timur.
