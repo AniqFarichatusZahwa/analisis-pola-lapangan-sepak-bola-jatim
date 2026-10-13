@@ -6,10 +6,10 @@ Project ini merupakan project akhir Data Warehousing yang mengintegrasikan data 
 
 Project ini menggunakan empat kelompok data utama yang disebut sebagai **4 Bebek**:
 
-1. **Bebek Soeratin** — data pertandingan Piala Soeratin kelompok usia U-13, U-15, dan U-17 yang bersumber dari [PSSI Jawa Timur](https://pssijatim.com/).
-2. **Bebek Liga 1** — data pertandingan Liga 1 Indonesia musim 2023/2024 dan 2024/2025 yang bersumber dari [Liga Indonesia Baru](https://www.ligaindonesiabaru.com/).
-3. **Bebek AFF U-19** — data pertandingan Piala AFF U-19 tahun 2024 yang bersumber dari [Bola.net](https://www.bola.net/).
-4. **Bebek Fasilitas** — data karakteristik stadion dan lapangan sepak bola, meliputi nama venue, lokasi administratif, alamat, luas lapangan, dan kapasitas penonton. Sumber data mencakup [Open Data Surabaya](https://opendata.surabaya.go.id/kumpulan_dataset/z001-10646-3) serta sumber resmi lain yang relevan untuk melengkapi informasi fasilitas di Jawa Timur.
+1. **Bebek Fasilitas** — data karakteristik stadion dan lapangan sepak bola, meliputi nama venue, lokasi administratif, alamat, luas lapangan, dan kapasitas penonton. Sumber data mencakup [Open Data Surabaya](https://opendata.surabaya.go.id/kumpulan_dataset/z001-10646-3) serta sumber resmi lain yang relevan untuk melengkapi informasi fasilitas di Jawa Timur.
+2. **Bebek Soeratin** — data pertandingan Piala Soeratin kelompok usia U-13, U-15, dan U-17 yang bersumber dari [PSSI Jawa Timur](https://pssijatim.com/).
+3. **Bebek Liga 1** — data pertandingan Liga 1 Indonesia musim 2023/2024 dan 2024/2025 yang bersumber dari [Liga Indonesia Baru](https://www.ligaindonesiabaru.com/).
+4. **Bebek AFF U-19** — data pertandingan Piala AFF U-19 tahun 2024 yang bersumber dari [Bola.net](https://www.bola.net/).
 
 ## Arsitektur Data Warehouse
 
@@ -62,7 +62,35 @@ Analisis diarahkan untuk menjawab pertanyaan seperti:
 
 Project ini menggunakan empat kelompok data utama yang disebut sebagai **“4 Bebek”**, yaitu data pertandingan Piala Soeratin, Liga 1 Indonesia, Piala AFF U-19, dan karakteristik fasilitas lapangan sepak bola di Jawa Timur.
 
-### 1. Bebek Soeratin — Data Pertandingan Piala Soeratin
+### 1. Bebek Fasilitas — Data Karakteristik Stadion dan Lapangan Sepak Bola
+
+**Sumber:**
+
+- [Open Data Surabaya — Sarana dan Prasarana Olahraga](https://opendata.surabaya.go.id/kumpulan_dataset/z001-10646-3)
+- [PSSI Jawa Timur](https://pssijatim.com/)
+- Sumber resmi pemerintah daerah dan pengelola fasilitas olahraga yang relevan.
+
+**Dataset:** `data_lapangan.csv`  
+**Database DuckDB:** `bebek_fasilitas.duckdb`
+
+Dataset ini berisi informasi karakteristik 67 stadion dan lapangan sepak bola yang tercatat dalam data penelitian. Informasi tersebut digunakan untuk mengidentifikasi lokasi venue, membandingkan fasilitas olahraga, dan menghubungkan karakteristik fasilitas dengan aktivitas pertandingan.
+
+**Variabel dataset:**
+
+| Variabel | Keterangan |
+|:---|:---|
+| `nama_venue` | Nama stadion atau lapangan |
+| `jumlah_event` | Jumlah pertandingan yang tercatat |
+| `kecamatan` | Kecamatan lokasi fasilitas |
+| `kelurahan` | Kelurahan lokasi fasilitas |
+| `nama_fasilitas_olahraga` | Nama fasilitas olahraga |
+| `alamatlokasi` | Alamat fasilitas |
+| `luas_m2` | Luas dalam meter persegi |
+| `kapasitas_penonton` | Kapasitas penonton |
+
+Dataset fasilitas digunakan sebagai tabel referensi untuk menghubungkan data pertandingan dengan lokasi dan karakteristik venue. Informasi luas dan kapasitas diperiksa berdasarkan ketersediaan sumber; nilai yang belum diketahui akan ditangani sebagai data kosong dan tidak diasumsikan sebagai nol.
+
+### 2. Bebek Soeratin — Data Pertandingan Piala Soeratin
 
 **Sumber:** PSSI Jawa Timur
 
@@ -100,7 +128,7 @@ Dataset ini berisi data pertandingan Piala Soeratin kelompok usia U-13, U-15, da
 
 Dataset ini digunakan untuk menganalisis distribusi pertandingan berdasarkan kelompok usia, jumlah event per venue, dan persebaran lokasi pertandingan. Terdapat 20 pertandingan yang belum memiliki informasi venue dan perlu ditangani pada tahap pembersihan data.
 
-### 2. Bebek Liga 1 — Data Pertandingan Liga 1 Indonesia
+### 3. Bebek Liga 1 — Data Pertandingan Liga 1 Indonesia
 
 **Sumber:** Liga Indonesia Baru
 
@@ -136,7 +164,7 @@ Dataset ini berisi catatan pertandingan Persebaya Surabaya pada kompetisi Liga 1
 
 Data ini digunakan sebagai pembanding aktivitas pertandingan pada kompetisi liga profesional. Cakupan datanya terbatas pada pertandingan Persebaya Surabaya yang tercatat dalam dataset, bukan keseluruhan pertandingan Liga 1 Indonesia.
 
-### 3. Bebek AFF U-19 — Data Pertandingan Piala AFF U-19 2024
+### 4. Bebek AFF U-19 — Data Pertandingan Piala AFF U-19 2024
 
 **Sumber:** Bola.net
 
@@ -169,34 +197,6 @@ Dataset ini berisi catatan pertandingan Piala AFF U-19 tahun 2024. Informasi yan
 | `sumber` | URL sumber informasi |
 
 Data AFF U-19 digunakan untuk mengidentifikasi aktivitas pertandingan internasional yang berlangsung di venue di Jawa Timur serta membandingkannya dengan aktivitas kompetisi lainnya.
-
-### 4. Bebek Fasilitas — Data Karakteristik Stadion dan Lapangan Sepak Bola
-
-**Sumber:**
-
-- [Open Data Surabaya — Sarana dan Prasarana Olahraga](https://opendata.surabaya.go.id/kumpulan_dataset/z001-10646-3)
-- [PSSI Jawa Timur](https://pssijatim.com/)
-- Sumber resmi pemerintah daerah dan pengelola fasilitas olahraga yang relevan.
-
-**Dataset:** `data_lapangan.csv`  
-**Database DuckDB:** `bebek_fasilitas.duckdb`
-
-Dataset ini berisi informasi karakteristik 67 stadion dan lapangan sepak bola yang tercatat dalam data penelitian. Informasi tersebut digunakan untuk mengidentifikasi lokasi venue, membandingkan fasilitas olahraga, dan menghubungkan karakteristik fasilitas dengan aktivitas pertandingan.
-
-**Variabel dataset:**
-
-| Variabel | Keterangan |
-|:---|:---|
-| `nama_venue` | Nama stadion atau lapangan |
-| `jumlah_event` | Jumlah pertandingan yang tercatat |
-| `kecamatan` | Kecamatan lokasi fasilitas |
-| `kelurahan` | Kelurahan lokasi fasilitas |
-| `nama_fasilitas_olahraga` | Nama fasilitas olahraga |
-| `alamatlokasi` | Alamat fasilitas |
-| `luas_m2` | Luas dalam meter persegi |
-| `kapasitas_penonton` | Kapasitas penonton |
-
-Dataset fasilitas digunakan sebagai tabel referensi untuk menghubungkan data pertandingan dengan lokasi dan karakteristik venue. Informasi luas dan kapasitas diperiksa berdasarkan ketersediaan sumber; nilai yang belum diketahui akan ditangani sebagai data kosong dan tidak diasumsikan sebagai nol.
 
 ### 🔗 Integrasi Data
 
