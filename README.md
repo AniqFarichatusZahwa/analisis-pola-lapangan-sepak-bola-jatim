@@ -351,3 +351,251 @@ Data yang terintegrasi disusun menjadi tabel analitik, yaitu:
 
 Data mart digunakan untuk membangun dashboard interaktif yang menampilkan peta persebaran stadion dan lapangan sepak bola di Jawa Timur, jumlah pertandingan per venue, perbandingan aktivitas antar kompetisi, serta eksplorasi hubungan antara karakteristik fasilitas dan aktivitas pertandingan.
 
+## 🗄️ Local DuckDB
+
+Setiap kelompok sumber data memiliki database DuckDB tersendiri. Pemisahan ini bertujuan menjaga data dari setiap sumber tetap terorganisasi sebelum melalui proses pembersihan, transformasi, dan integrasi ke DuckLake.
+
+### Rencana Database
+
+```text
+bebek_soeratin.duckdb
+bebek_liga1.duckdb
+bebek_aff.duckdb
+bebek_fasilitas.duckdb
+```
+
+### Struktur Data Lokal
+
+| Database | Sumber Data | File CSV |
+|:---|:---|:---|
+| `bebek_soeratin.duckdb` | PSSI Jawa Timur | `data_event_soeratin.csv` |
+| `bebek_liga1.duckdb` | Liga Indonesia Baru | `data_event_liga1.csv` |
+| `bebek_aff.duckdb` | Bola.net | `data_event_aff.csv` |
+| `bebek_fasilitas.duckdb` | Open Data Surabaya dan sumber fasilitas lainnya | `data_lapangan.csv` |
+
+### Fungsi Local DuckDB
+
+Local DuckDB berfungsi sebagai **raw/staging layer**, yaitu lapisan penyimpanan awal sebelum data diintegrasikan ke DuckLake.
+
+Pada tahap ini, setiap dataset diimpor ke database masing-masing. Data asli dipertahankan sebagai referensi, sedangkan proses pembersihan dan transformasi dilakukan untuk menghasilkan tabel yang siap diintegrasikan.
+
+Contoh alur pengolahan:
+
+```text
+data_event_soeratin.csv
+          |
+          v
+bebek_soeratin.duckdb
+          |
+          v
+cleaning / transformation
+          |
+          v
+DuckLake
+```
+
+Alur serupa diterapkan pada data Liga 1, AFF U-19, dan fasilitas lapangan. Proses ini membantu menjaga keterlacakan sumber data sekaligus mempermudah validasi sebelum integrasi.
+
+## 🦆 DuckLake
+
+Data yang telah melalui proses pembersihan dan transformasi kemudian diintegrasikan ke dalam satu lingkungan DuckLake sebagai penyimpanan data analitik terpusat.
+
+DuckLake digunakan untuk mengelola data terintegrasi yang menghubungkan aktivitas pertandingan dari berbagai kompetisi dengan karakteristik stadion dan lapangan sepak bola.
+
+### Rencana Struktur DuckLake
+
+```text
+DuckLake
+|
+|-- soeratin
+|   `-- event_soeratin
+|
+|-- liga1
+|   `-- event_liga1
+|
+|-- aff
+|   `-- event_aff
+|
+|-- fasilitas
+|   `-- dim_venue
+|
+`-- analytics
+    |-- fact_event
+    |-- mart_aktivitas_venue
+    |-- mart_kompetisi_venue
+    `-- mart_karakteristik_venue
+```
+
+### Penjelasan Struktur
+
+- **`soeratin.event_soeratin`** — menyimpan data pertandingan Piala Soeratin yang telah dibersihkan.
+- **`liga1.event_liga1`** — menyimpan data pertandingan Liga 1 yang telah dibersihkan.
+- **`aff.event_aff`** — menyimpan data pertandingan Piala AFF U-19 yang telah dibersihkan.
+- **`fasilitas.dim_venue`** — menyimpan identitas dan karakteristik setiap venue, termasuk lokasi, luas, kapasitas, serta koordinat jika tersedia.
+- **`analytics.fact_event`** — menggabungkan catatan pertandingan dari ketiga kompetisi ke dalam satu struktur analitik yang seragam.
+- **`analytics.mart_aktivitas_venue`** — menyajikan jumlah pertandingan yang tercatat pada setiap venue.
+- **`analytics.mart_kompetisi_venue`** — menyajikan perbandingan aktivitas pertandingan berdasarkan venue dan kompetisi.
+- **`analytics.mart_karakteristik_venue`** — mendukung analisis eksploratif antara karakteristik fasilitas dan jumlah pertandingan.
+
+Tabel-tabel analitik akan dihubungkan menggunakan identitas venue (`venue_id`). Dengan demikian, beberapa catatan pertandingan yang berlangsung di venue yang sama tetap tercatat sebagai pertandingan berbeda, tetapi dapat dikaitkan dengan satu data karakteristik fasilitas.
+
+### Katalog dan Penyimpanan DuckLake
+
+Rencana penggunaan DuckLake:
+
+```text
+shared_catalog.ducklake
+lakehouse_storage/
+```
+
+`shared_catalog.ducklake` digunakan sebagai nama katalog DuckLake yang direncanakan untuk mengelola metadata tabel, sedangkan `lakehouse_storage/` merupakan lokasi penyimpanan data lakehouse.
+
+Nama dan lokasi tersebut merupakan rancangan awal yang akan disesuaikan saat implementasi teknis.
+
+### Tujuan Integrasi DuckLake
+
+Integrasi melalui DuckLake bertujuan untuk:
+
+1. Menyatukan data pertandingan dari tiga kompetisi dalam struktur analitik yang konsisten.
+2. Menghubungkan aktivitas pertandingan dengan identitas dan karakteristik venue.
+3. Mempermudah penghitungan jumlah pertandingan per venue tanpa menghitung data secara ganda.
+4. Menyediakan tabel analitik untuk perbandingan aktivitas antarkompetisi.
+5. Menyediakan data yang siap digunakan oleh dashboard interaktif berbasis Streamlit, termasuk peta persebaran stadion dan lapangan sepak bola di Jawa Timur.
+
+## 🔄 ETL / ELT Process
+
+Proses ETL (*Extract, Transform, Load*) / ELT (*Extract, Load, Transform*) dilakukan untuk mempersiapkan data pertandingan dan karakteristik fasilitas sebelum diintegrasikan ke dalam DuckLake. Proses ini mencakup pengambilan data, pembersihan, standardisasi, integrasi, dan pemuatan data ke dalam struktur analitik.
+
+### 1. Extract
+
+Data dikumpulkan dari empat kelompok sumber yang digunakan dalam project:
+
+```text
+PSSI Jawa Timur
+    └── data_event_soeratin.csv
+
+Liga Indonesia Baru
+    └── data_event_liga1.csv
+
+Bola.net
+    └── data_event_aff.csv
+
+Open Data Surabaya & Sumber Fasilitas Resmi
+    └── data_lapangan.csv
+```
+
+Keempat dataset disimpan sebagai data mentah (*raw data*) dan diimpor ke database DuckDB masing-masing:
+
+- `bebek_soeratin.duckdb`
+- `bebek_liga1.duckdb`
+- `bebek_aff.duckdb`
+- `bebek_fasilitas.duckdb`
+
+Data mentah dipertahankan sebagai referensi agar proses pengolahan dapat ditelusuri kembali ke sumber aslinya. Pengambilan data dilakukan melalui dataset yang telah dikumpulkan dan sumber publik terkait.
+
+### 2. Transform
+
+Transformasi dilakukan untuk menghasilkan data yang konsisten, valid, dan siap diintegrasikan.
+
+**Transformasi data pertandingan:**
+
+- Memeriksa struktur kolom dan tipe data pada setiap dataset.
+- Menghapus baris kosong yang tidak berisi catatan pertandingan.
+- Menstandarkan nama kolom agar memiliki struktur yang konsisten antarkompetisi.
+- Menyeragamkan format tanggal pertandingan.
+- Membersihkan dan menstandarkan nama kompetisi, kelompok usia, tim, dan venue.
+- Memeriksa duplikasi catatan pertandingan tanpa menghapus pertandingan berbeda yang kebetulan berlangsung pada tanggal atau venue yang sama.
+- Memeriksa kelengkapan informasi tim, skor, tanggal, dan venue.
+- Menambahkan atribut kompetisi untuk membedakan Soeratin, Liga 1, dan AFF U-19 setelah data pertandingan digabungkan.
+
+**Transformasi data fasilitas:**
+
+- Menstandarkan nama stadion dan lapangan.
+- Memeriksa kecocokan nama fasilitas dengan venue pada data pertandingan.
+- Menyeragamkan nama kabupaten/kota, kecamatan, dan kelurahan jika tersedia.
+- Mengubah nilai luas dan kapasitas ke tipe numerik.
+- Menyeragamkan satuan luas menjadi meter persegi (m²).
+- Memisahkan luas lapangan dari luas tanah atau kompleks stadion jika keduanya tersedia.
+- Memeriksa kelengkapan alamat dan koordinat untuk kebutuhan pemetaan.
+- Menangani nilai kosong tanpa menganggapnya sebagai nol.
+
+**Transformasi integrasi:**
+
+- Menggabungkan data Soeratin, Liga 1, dan AFF U-19 dengan struktur kolom yang seragam.
+- Membentuk identitas unik `venue_id` untuk setiap venue yang telah diverifikasi.
+- Menghubungkan data pertandingan dengan tabel fasilitas berdasarkan `venue_id`.
+- Memisahkan catatan pertandingan yang belum dapat dicocokkan ke venue untuk proses verifikasi.
+- Menghitung ulang jumlah pertandingan per venue dari data event yang telah dibersihkan.
+
+Contoh alur transformasi:
+
+```text
+Raw Event Data
+      |
+      v
+Cleaning & Standardization
+      |
+      v
+Unified Event Structure
+      |
+      v
+Venue Matching
+      |
+      +-------------------+
+      |                   |
+      v                   v
+  Fact Event          Dim Venue
+      |                   |
+      +---------+---------+
+                |
+                v
+       Integrated Data
+```
+
+### 3. Load
+
+Data yang telah dibersihkan dan distandardisasi dimuat ke dalam DuckLake sebagai penyimpanan analitik terpusat.
+
+Proses pemuatan dilakukan dengan mempertahankan pemisahan logis antarjenis data, sekaligus menyediakan tabel terintegrasi untuk kebutuhan analisis.
+
+Rencana tabel yang dimuat ke DuckLake:
+
+| Schema | Tabel | Fungsi |
+|:---|:---|:---|
+| `soeratin` | `event_soeratin` | Data pertandingan Piala Soeratin |
+| `liga1` | `event_liga1` | Data pertandingan Liga 1 |
+| `aff` | `event_aff` | Data pertandingan AFF U-19 |
+| `fasilitas` | `dim_venue` | Identitas dan karakteristik venue |
+| `analytics` | `fact_event` | Data pertandingan terintegrasi |
+| `analytics` | `mart_aktivitas_venue` | Agregasi jumlah pertandingan per venue |
+| `analytics` | `mart_kompetisi_venue` | Perbandingan aktivitas berdasarkan kompetisi |
+| `analytics` | `mart_karakteristik_venue` | Dataset analitik karakteristik fasilitas dan aktivitas pertandingan |
+
+Tabel analitik dibentuk setelah proses validasi integrasi selesai. Jumlah pertandingan pada setiap venue dihitung dari catatan pertandingan yang telah dibersihkan, bukan dijumlahkan kembali dengan kolom `jumlah_event` dari dataset fasilitas.
+
+### 4. Validasi Hasil ETL / ELT
+
+Validasi dilakukan untuk memastikan bahwa data yang dimuat ke DuckLake sesuai dengan data sumber dan siap digunakan dalam analisis.
+
+Pemeriksaan meliputi:
+
+- Kesesuaian jumlah catatan sebelum dan sesudah transformasi.
+- Konsistensi tipe data dan format tanggal.
+- Pemeriksaan duplikasi pertandingan.
+- Pemeriksaan nama venue yang belum berhasil dicocokkan.
+- Kelengkapan data luas, kapasitas, dan lokasi fasilitas.
+- Konsistensi jumlah pertandingan pada tabel analitik dengan hasil agregasi tabel event.
+
+Data yang belum lengkap tetap diberi penanda untuk ditinjau lebih lanjut. Nilai yang tidak ditemukan tidak diisi menggunakan perkiraan tanpa sumber yang dapat dipertanggungjawabkan.
+
+### 5. Output Proses ETL / ELT
+
+Hasil proses ETL / ELT adalah dataset analitik terintegrasi yang menghubungkan aktivitas pertandingan dengan karakteristik fasilitas sepak bola di Jawa Timur.
+
+Data tersebut selanjutnya digunakan untuk:
+
+- Menghitung jumlah pertandingan yang tercatat pada setiap venue.
+- Membandingkan aktivitas pertandingan Soeratin, Liga 1, dan AFF U-19.
+- Menganalisis persebaran stadion dan lapangan sepak bola.
+- Mengeksplorasi hubungan antara luas lapangan, kapasitas penonton, dan jumlah pertandingan.
+- Menyediakan data untuk dashboard interaktif berbasis Streamlit, termasuk peta persebaran venue.
