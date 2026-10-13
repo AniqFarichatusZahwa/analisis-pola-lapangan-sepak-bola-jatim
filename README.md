@@ -228,3 +228,126 @@ Sebagai contoh, pertandingan Piala Soeratin, Liga 1, dan AFF U-19 yang berlangsu
 Hasil integrasi membentuk dataset analitik yang memungkinkan penghitungan jumlah pertandingan berdasarkan venue dan kompetisi, analisis persebaran fasilitas, serta eksplorasi hubungan antara karakteristik fasilitas dan aktivitas pertandingan.
 
 Perlu diperhatikan bahwa data luas dan kapasitas tidak selalu tersedia untuk seluruh venue. Selain itu, data pertandingan hanya merepresentasikan kompetisi yang tercakup dalam sumber penelitian dan tidak menggambarkan seluruh aktivitas penggunaan lapangan sepak bola di Jawa Timur.
+
+## Arsitektur Data Warehousing
+
+Project mengikuti arsitektur data warehousing yang terdiri dari empat kelompok data (*4 Bebek*), proses ETL, integrasi menggunakan DuckLake, serta analisis dan visualisasi menggunakan Streamlit.
+
+```text
+                         DATA SOURCES
+                              |
+          +-------------------+-------------------+
+          |                   |                   |
+          v                   v                   v
+    PSSI Jawa Timur     Liga Indonesia Baru     Bola.net
+       Soeratin              Liga 1              AFF U-19
+          |                   |                   |
+          v                   v                   v
+ data_event_soeratin.csv  data_event_liga1.csv  data_event_aff.csv
+          |                   |                   |
+          v                   v                   v
+ +------------------+ +------------------+ +------------------+
+ | BEBEK SOERATIN   | | BEBEK LIGA 1     | | BEBEK AFF U-19   |
+ | bebek_soeratin   | | bebek_liga1       | | bebek_aff        |
+ | .duckdb          | | .duckdb           | | .duckdb          |
+ +------------------+ +------------------+ +------------------+
+          |                   |                   |
+          +-------------------+-------------------+
+                              |
+                              |
+       Open Data Surabaya & Sumber Fasilitas Resmi
+                              |
+                              v
+                     data_lapangan.csv
+                              |
+                              v
+                   +---------------------+
+                   | BEBEK FASILITAS     |
+                   | bebek_fasilitas     |
+                   | .duckdb             |
+                   +---------------------+
+                              |
+                              |
+              +---------------+---------------+
+              |                               |
+              v                               v
+       Seluruh Database DuckDB               |
+              |                               |
+              +---------------+---------------+
+                              |
+                              v
+                     ETL / ELT PROCESS
+             - Data cleaning dan validasi
+             - Standardisasi nama venue
+             - Pemeriksaan duplikasi event
+             - Standardisasi tanggal
+             - Pembuatan venue_id
+             - Integrasi event dan fasilitas
+                              |
+                              v
+                     DUCKLAKE LAKEHOUSE
+                              |
+                 +------------+------------+
+                 |                         |
+                 v                         v
+          shared_catalog.ducklake    lakehouse_storage/
+                 |
+                 v
+             DATA MART
+                 |
+       +---------+----------+
+       |                    |
+       v                    v
+  fact_event             dim_venue
+       |                    |
+       +---------+----------+
+                 |
+                 v
+       ANALYTICS & AGGREGATION
+                 |
+       +---------+----------+
+       |                    |
+       v                    v
+ Aktivitas per Venue   Perbandingan Kompetisi
+                 |
+                 v
+        STREAMLIT DASHBOARD
+                 |
+       +---------+----------+
+       |                    |
+       v                    v
+ Peta Persebaran       Statistik dan Grafik
+       Venue             Aktivitas Event
+```
+
+### Penjelasan Arsitektur
+
+**1. Data Sources**
+
+Data diperoleh dari empat kelompok sumber, yaitu PSSI Jawa Timur untuk Piala Soeratin, Liga Indonesia Baru untuk Liga 1, Bola.net untuk AFF U-19, serta Open Data Surabaya dan sumber resmi lainnya untuk karakteristik fasilitas sepak bola.
+
+**2. DuckDB — 4 Bebek**
+
+Setiap kelompok data dikelola menggunakan database DuckDB yang terpisah. Pemisahan ini bertujuan menjaga struktur dan asal data masing-masing kelompok sebelum proses integrasi.
+
+**3. ETL / ELT Process**
+
+Data melalui proses pembersihan, penyesuaian format, pemeriksaan duplikasi, dan standardisasi nama venue. Setiap venue yang berhasil diidentifikasi diberikan `venue_id` agar data pertandingan dari berbagai kompetisi dapat dihubungkan ke fasilitas yang sesuai.
+
+**4. DuckLake Lakehouse**
+
+Data yang telah dibersihkan diintegrasikan ke dalam DuckLake sebagai penyimpanan analitik terpusat. Katalog DuckLake mengelola metadata tabel, sedangkan penyimpanan lakehouse digunakan untuk mengelola data yang terintegrasi.
+
+**5. Data Mart**
+
+Data yang terintegrasi disusun menjadi tabel analitik, yaitu:
+
+- `fact_event` — mencatat pertandingan, tanggal, kompetisi, tim, hasil, dan identitas venue.
+- `dim_venue` — menyimpan identitas dan karakteristik venue, seperti lokasi administratif, alamat, luas, kapasitas, dan koordinat.
+- `mart_aktivitas_venue` — menyajikan agregasi jumlah pertandingan berdasarkan venue.
+- `mart_kompetisi_venue` — menyajikan perbandingan aktivitas pertandingan berdasarkan kompetisi dan venue.
+
+**6. Streamlit Dashboard**
+
+Data mart digunakan untuk membangun dashboard interaktif yang menampilkan peta persebaran stadion dan lapangan sepak bola di Jawa Timur, jumlah pertandingan per venue, perbandingan aktivitas antar kompetisi, serta eksplorasi hubungan antara karakteristik fasilitas dan aktivitas pertandingan.
+
