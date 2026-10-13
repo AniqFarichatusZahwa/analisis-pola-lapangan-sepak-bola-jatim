@@ -198,12 +198,33 @@ Dataset ini berisi catatan pertandingan Piala AFF U-19 tahun 2024. Informasi yan
 
 Data AFF U-19 digunakan untuk mengidentifikasi aktivitas pertandingan internasional yang berlangsung di venue di Jawa Timur serta membandingkannya dengan aktivitas kompetisi lainnya.
 
-### 🔗 Integrasi Data
+## 🔗 Integrasi Empat Kelompok Data
 
-Ketiga dataset pertandingan, yaitu Soeratin, Liga 1, dan AFF U-19, serta dataset fasilitas akan dikelola dalam empat database DuckDB yang terpisah.
+Keempat kelompok data memiliki karakteristik dan tingkat granularitas yang berbeda:
 
-Data kemudian melalui proses *Extract, Transform, Load* (ETL), yang meliputi pembersihan data, standardisasi nama venue, penyesuaian format tanggal, pemeriksaan duplikasi pertandingan, serta penanganan nilai yang belum tersedia.
+| Sumber | Cakupan | Unit Data | Detail |
+|:---|:---|:---|:---|
+| Bebek Fasilitas | Stadion dan lapangan sepak bola dalam dataset penelitian di Jawa Timur | Venue/fasilitas | Nama fasilitas, lokasi administratif, alamat, luas lapangan, dan kapasitas penonton |
+| Bebek Soeratin | Kompetisi Piala Soeratin di Jawa Timur | Pertandingan | Kelompok usia U-13, U-15, U-17, tanggal, tim, skor, dan venue |
+| Bebek Liga 1 | Pertandingan Persebaya Surabaya pada musim 2023/2024 dan 2024/2025 | Pertandingan | Tanggal pertandingan, tim, skor, dan venue |
+| Bebek AFF U-19 | Kompetisi Piala AFF U-19 tahun 2024 | Pertandingan | Tanggal pertandingan, tim, skor, dan venue |
 
-Selanjutnya, data yang telah dibersihkan akan diintegrasikan melalui DuckLake untuk membentuk penyimpanan data analitik terpusat. Integrasi dilakukan dengan menghubungkan catatan pertandingan dari setiap kompetisi dengan identitas venue pada dataset fasilitas.
+Keempat kelompok data tersebut tidak dapat langsung digabungkan berdasarkan urutan baris karena memiliki unit pengamatan yang berbeda. Data pertandingan mencatat aktivitas pada suatu waktu, sedangkan data fasilitas mendeskripsikan karakteristik setiap venue.
 
-Data terintegrasi akan digunakan untuk menganalisis jumlah pertandingan per venue, membandingkan aktivitas antarkompetisi, mengeksplorasi hubungan antara luas dan kapasitas fasilitas dengan jumlah pertandingan, serta memvisualisasikan persebaran stadion dan lapangan sepak bola di Jawa Timur melalui dashboard interaktif berbasis Streamlit.
+Integrasi dilakukan melalui beberapa tahapan:
+
+1. **Standardisasi data pertandingan.** Ketiga dataset pertandingan diselaraskan ke dalam struktur kolom yang konsisten, seperti identitas pertandingan, kompetisi, tanggal, kelompok usia jika tersedia, nama venue, tim yang bertanding, hasil skor, dan sumber data.
+
+2. **Penggabungan data pertandingan.** Setelah memiliki struktur yang konsisten, data Soeratin, Liga 1, dan AFF U-19 digabungkan secara vertikal (*union*) menjadi satu tabel aktivitas pertandingan. Kolom kompetisi digunakan untuk membedakan asal setiap pertandingan.
+
+3. **Standardisasi identitas venue.** Nama stadion dan lapangan diseragamkan untuk menangani perbedaan penulisan, singkatan, atau nama alternatif. Setiap venue kemudian diberikan identitas unik berupa `venue_id`.
+
+4. **Integrasi dengan data fasilitas.** Tabel aktivitas pertandingan dihubungkan dengan tabel fasilitas melalui `venue_id`. Dengan demikian, setiap pertandingan yang berhasil dicocokkan dengan venue dapat dikaitkan dengan informasi lokasi, luas lapangan, dan kapasitas penonton.
+
+5. **Validasi data terintegrasi.** Proses validasi meliputi pemeriksaan duplikasi pertandingan, kelengkapan tanggal dan venue, kecocokan nama fasilitas, serta penanganan nilai yang belum tersedia. Pertandingan yang belum dapat dicocokkan dengan fasilitas disimpan untuk proses verifikasi lebih lanjut.
+
+Sebagai contoh, pertandingan Piala Soeratin, Liga 1, dan AFF U-19 yang berlangsung di venue yang sama akan tetap menjadi catatan pertandingan yang berbeda dalam tabel aktivitas. Ketiganya dapat dihubungkan ke satu identitas venue yang sama pada tabel fasilitas.
+
+Hasil integrasi membentuk dataset analitik yang memungkinkan penghitungan jumlah pertandingan berdasarkan venue dan kompetisi, analisis persebaran fasilitas, serta eksplorasi hubungan antara karakteristik fasilitas dan aktivitas pertandingan.
+
+Perlu diperhatikan bahwa data luas dan kapasitas tidak selalu tersedia untuk seluruh venue. Selain itu, data pertandingan hanya merepresentasikan kompetisi yang tercakup dalam sumber penelitian dan tidak menggambarkan seluruh aktivitas penggunaan lapangan sepak bola di Jawa Timur.
