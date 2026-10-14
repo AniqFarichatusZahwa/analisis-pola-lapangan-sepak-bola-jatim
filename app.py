@@ -358,7 +358,6 @@ if page == "Ringkasan Aktivitas":
     left, right = st.columns(2)
     with left:
         st.subheader("🏟️ Venue dengan aktivitas terbanyak")
-        st.caption("Batang bertumpuk memperlihatkan kontribusi tiap kompetisi pada total pertandingan di setiap venue.")
 
         # Tentukan 10 venue teratas dari total aktivitas pada filter yang sedang dipilih.
         top_venue_ids = activity_venues.nlargest(10, "jumlah_pertandingan")["venue_id"].tolist()
@@ -424,10 +423,27 @@ if page == "Ringkasan Aktivitas":
                 yaxis_title=None,
                 xaxis_title="Jumlah pertandingan",
                 barmode="stack",
-                legend_title_text="Kompetisi",
             )
             fig_top.update_traces(marker_line_width=0)
-            st.plotly_chart(style_plotly(fig_top, 440), use_container_width=True)
+
+            # Terapkan gaya umum lebih dulu, lalu paksa legenda pada grafik ini
+            # menjadi satu baris agar tidak bertumpuk secara vertikal.
+            fig_top = style_plotly(fig_top, 440)
+            fig_top.update_layout(
+                legend={
+                    "title_text": "",
+                    "orientation": "h",
+                    "x": 0.5,
+                    "xanchor": "center",
+                    "y": 1.08,
+                    "yanchor": "bottom",
+                    "font": {"size": 11},
+                    "itemsizing": "constant",
+                    "traceorder": "normal",
+                },
+                margin={"l": 12, "r": 12, "t": 62, "b": 35},
+            )
+            st.plotly_chart(fig_top, use_container_width=True)
 
     with right:
         st.subheader("📈 Tren pertandingan dari waktu ke waktu")
