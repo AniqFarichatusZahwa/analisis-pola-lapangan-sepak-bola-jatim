@@ -358,20 +358,76 @@ if page == "Ringkasan Aktivitas":
     left, right = st.columns(2)
     with left:
         st.subheader("🏟️ Venue dengan aktivitas terbanyak")
-        top_venues = activity_venues.nlargest(10, "jumlah_pertandingan")
-        fig_top = px.bar(
-            top_venues.sort_values("jumlah_pertandingan"),
-            x="jumlah_pertandingan",
-            y="nama_venue",
-            orientation="h",
-            labels={
-                "nama_venue": "Venue",
-                "jumlah_pertandingan": "Jumlah pertandingan",
-            },
-            color_discrete_sequence=[PALETTE["teal"]],
+        st.caption("Batang bertumpuk memperlihatkan kontribusi tiap kompetisi pada total pertandingan di setiap venue.")
+
+        # Tentukan 10 venue teratas dari total aktivitas pada filter yang sedang dipilih.
+        top_venue_ids = activity_venues.nlargest(10, "jumlah_pertandingan")["venue_id"].tolist()
+
+        # Hitung jumlah pertandingan per venue DAN per jenis kompetisi agar batang bisa ditumpuk.
+        venue_comp_counts = (
+            filtered_events.dropna(subset=["venue_id"])
+            .groupby(["venue_id", "kompetisi_sumber"], as_index=False)
+            .size()
+            .rename(columns={"size": "jumlah_pertandingan"})
         )
-        fig_top.update_layout(yaxis_title=None, xaxis_title="Jumlah pertandingan")
-        st.plotly_chart(style_plotly(fig_top, 440), use_container_width=True)
+        top_venue_comp = venue_comp_counts[
+            venue_comp_counts["venue_id"].isin(top_venue_ids)
+        ].merge(
+            venues[["venue_id", "nama_venue"]], on="venue_id", how="left"
+        )
+
+        if top_venue_comp.empty:
+            st.info("Tidak ada pertandingan ber-venue yang sesuai dengan filter.")
+        else:
+            # Pertahankan urutan venue berdasarkan total pertandingan, dari sedikit ke banyak,
+            # agar venue dengan aktivitas terbesar tampil di bagian atas grafik horizontal.
+            venue_order = (
+                activity_venues[activity_venues["venue_id"].isin(top_venue_ids)]
+                .sort_values("jumlah_pertandingan", ascending=True)["nama_venue"]
+                .tolist()
+            )
+            competition_order = [
+                comp for comp in ["Soeratin", "Liga 1", "AFF U-19"]
+                if comp in top_venue_comp["kompetisi_sumber"].astype(str).unique()
+            ]
+            # Warna beda dan konsisten untuk tiap kompetisi, tetap sesuai tema hijau dashboard.
+            competition_color_map = {
+                "Soeratin": PALETTE["forest"],
+                "Liga 1": PALETTE["gold"],
+                "AFF U-19": PALETTE["coral"],
+            }
+            # Beri warna fallback kalau nantinya ada sumber kompetisi baru.
+            for i, comp in enumerate(sorted(top_venue_comp["kompetisi_sumber"].astype(str).unique())):
+                if comp not in competition_color_map:
+                    competition_color_map[comp] = CHART_COLORS[i % len(CHART_COLORS)]
+
+            fig_top = px.bar(
+                top_venue_comp,
+                x="jumlah_pertandingan",
+                y="nama_venue",
+                color="kompetisi_sumber",
+                orientation="h",
+                barmode="stack",
+                category_orders={
+                    "nama_venue": venue_order,
+                    "kompetisi_sumber": competition_order,
+                },
+                color_discrete_map=competition_color_map,
+                labels={
+                    "nama_venue": "Venue",
+                    "jumlah_pertandingan": "Jumlah pertandingan",
+                    "kompetisi_sumber": "Jenis pertandingan",
+                },
+                hover_data={"jumlah_pertandingan": ":,", "venue_id": False},
+            )
+            fig_top.update_layout(
+                yaxis_title=None,
+                xaxis_title="Jumlah pertandingan",
+                barmode="stack",
+                legend_title_text="Kompetisi",
+            )
+            fig_top.update_traces(marker_line_width=0)
+            st.plotly_chart(style_plotly(fig_top, 440), use_container_width=True)
 
     with right:
         st.subheader("📈 Tren pertandingan dari waktu ke waktu")
