@@ -42,7 +42,7 @@ st.markdown(
     html, body, [class*="css"] { font-family: 'DM Sans', 'Segoe UI', sans-serif; }
     [data-testid="stAppViewContainer"] { background: #F4F7F3; color: var(--ink); }
     [data-testid="stHeader"] { background: rgba(244,247,243,.92); }
-    [data-testid="stMainBlockContainer"] { padding-top: 1.8rem; padding-bottom: 3rem; max-width: 1550px; }
+    [data-testid="stMainBlockContainer"] { padding-top: 3.6rem; padding-bottom: 3rem; max-width: 1550px; }
     h1, h2, h3 { font-family: 'Manrope', 'DM Sans', sans-serif !important; color: #1D352A; letter-spacing: -0.035em; }
     h2 { font-size: 1.42rem !important; margin-top: 1.2rem !important; }
     h3 { font-size: 1.12rem !important; }
@@ -70,10 +70,13 @@ st.markdown(
     .sidebar-small { color:#BBD1C4; font-size:.77rem; margin-top:.45rem; letter-spacing:.06em; text-transform:uppercase; }
 
     /* Main hero */
-    .hero-header { position:relative; overflow:hidden; padding:2rem 2.1rem 1.9rem; border-radius:26px; margin-bottom:1.35rem;
+    .hero-header { position:relative; z-index:1; overflow:hidden; padding:2rem 2.1rem 1.9rem; border-radius:26px; margin-top:.65rem; margin-bottom:1.35rem;
         background: radial-gradient(circle at 90% 18%, rgba(183,227,106,.22), transparent 24%), linear-gradient(120deg, #102F26 0%, #176447 62%, #21785A 100%);
         box-shadow: 0 12px 28px rgba(20,75,52,.13); }
-    .hero-kicker { display:inline-block; padding:.34rem .7rem; border:1px solid rgba(218,245,178,.34); background:rgba(183,227,106,.12); border-radius:999px; color:#D9F5AC; font-size:.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; margin-bottom:.85rem; }
+    .hero-brand-row { display:flex; align-items:center; gap:1rem; margin-bottom:1.05rem; position:relative; z-index:2; }
+    .hero-logo { display:block; width:68px; height:76px; flex:0 0 auto; filter:drop-shadow(0 5px 10px rgba(0,0,0,.18)); }
+    .hero-kicker { display:inline-block; padding:.38rem .78rem; border:1px solid rgba(218,245,178,.34); background:rgba(183,227,106,.12); border-radius:999px; color:#D9F5AC; font-size:.72rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; margin-bottom:.38rem; }
+    .hero-brand-subline { color:#D4E4DA; font-size:.74rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; }
     .hero-title { color:#FFFFFF; font-family:'Manrope','DM Sans',sans-serif; font-size:clamp(1.65rem, 3vw, 2.55rem); line-height:1.18; font-weight:800; letter-spacing:-.045em; margin:0; max-width:950px; }
     .hero-subtitle { color:#D4E4DA; font-size:1rem; line-height:1.6; margin:.8rem 0 0; max-width:920px; }
     .hero-foot { display:flex; flex-wrap:wrap; gap:.55rem; margin-top:1.2rem; }
@@ -95,9 +98,12 @@ st.markdown(
     .footer-note { color:#829087; font-size:.78rem; padding-top:1rem; }
 
     @media (max-width: 760px) {
-      .hero-header { padding:1.35rem; border-radius:20px; }
+      .hero-header { padding:1.35rem; border-radius:20px; margin-top:.35rem; }
+      .hero-logo { width:54px; height:61px; }
+      .hero-brand-row { gap:.75rem; align-items:flex-start; }
+      .hero-kicker { font-size:.63rem; letter-spacing:.08em; }
       [data-testid="stMetric"] { padding:.8rem; min-height:95px; }
-      [data-testid="stMainBlockContainer"] { padding-left:1rem; padding-right:1rem; }
+      [data-testid="stMainBlockContainer"] { padding-top:3.4rem; padding-left:1rem; padding-right:1rem; }
     }
     </style>
     """,
@@ -283,7 +289,20 @@ activity_venues = get_activity_by_venue(filtered_events, venues)
 st.markdown(
     """
     <div class="hero-header">
-      <div class="hero-kicker">Sports Data Warehouse · Jawa Timur</div>
+      <div class="hero-brand-row">
+        <svg class="hero-logo" viewBox="0 0 100 112" role="img" aria-label="Logo Lapangan Jatim" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50 5 L88 19 L84 59 Q78 84 50 105 Q22 84 16 59 L12 19 Z" fill="#174B39" stroke="#D9F5AC" stroke-width="4"/>
+          <path d="M25 31 Q50 20 75 31" fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".85"/>
+          <circle cx="50" cy="48" r="17" fill="#FFFFFF" stroke="#D9F5AC" stroke-width="2.5"/>
+          <path d="M50 38 L59 44 L56 55 L44 55 L41 44 Z" fill="#176447"/>
+          <path d="M50 31 L50 38 M65 41 L59 44 M61 61 L56 55 M39 61 L44 55 M35 41 L41 44" stroke="#176447" stroke-width="2.5" fill="none"/>
+          <path d="M29 73 H71 M33 80 H67 M40 87 H60" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity=".95"/>
+        </svg>
+        <div>
+          <div class="hero-kicker">Sports Data Warehouse · Jawa Timur</div>
+          <div class="hero-brand-subline">Portal Analitik Sepak Bola</div>
+        </div>
+      </div>
       <div class="hero-title">Analisis Pola Pemanfaatan<br>Lapangan Sepak Bola Jawa Timur</div>
       <div class="hero-subtitle">Jelajahi aktivitas pertandingan, persebaran venue, kompetisi, dan karakteristik fasilitas dalam satu dashboard terintegrasi.</div>
       <div class="hero-foot">
