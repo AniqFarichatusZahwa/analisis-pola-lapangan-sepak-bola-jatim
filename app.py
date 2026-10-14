@@ -299,15 +299,16 @@ elif page == "Peta Persebaran Venue":
         map_center_lon = float(map_df["longitude"].median())
         map_layer = pdk.Layer(
             "ScatterplotLayer",
+            id="venue_scatterplot",  # ID diperlukan agar titik bisa dipilih (click/select)
             data=map_df,
             get_position="[longitude, latitude]",
-            get_radius=180,
-            radius_min_pixels=4,
-            radius_max_pixels=14,
+            get_radius=220,
+            radius_min_pixels=6,
+            radius_max_pixels=16,
             pickable=True,
             auto_highlight=True,
-            get_fill_color=[20, 115, 180, 180],
-            get_line_color=[255, 255, 255, 220],
+            get_fill_color=[20, 115, 180, 200],
+            get_line_color=[255, 255, 255, 230],
             line_width_min_pixels=1,
         )
         deck = pdk.Deck(
@@ -329,8 +330,51 @@ elif page == "Peta Persebaran Venue":
             },
             map_style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
         )
-        st.pydeck_chart(deck, use_container_width=True)
-        st.caption(f"Jumlah titik pada peta: {len(map_df)} venue")
+        map_selection = st.pydeck_chart(
+            deck,
+            use_container_width=True,
+            on_select="rerun",
+            selection_mode="single-object",
+            key="venue_map_select",
+        )
+        st.caption(
+            f"Jumlah titik pada peta: {len(map_df)} venue. "
+            "Klik satu titik untuk melihat detail venue; arahkan kursor untuk melihat tooltip."
+        )
+
+        # Tampilkan detail ketika pengguna memilih salah satu titik di peta.
+        selected_rows = []
+        try:
+            selected_rows = map_selection.selection.objects.get("venue_scatterplot", [])
+        except (AttributeError, KeyError, TypeError):
+            selected_rows = []
+
+        if selected_rows:
+            selected_id = selected_rows[0].get("venue_id")
+            if selected_id is not None:
+                selected_match = map_df[map_df["venue_id"].astype(str) == str(selected_id)]
+                if not selected_match.empty:
+                    selected_venue = selected_match.iloc[0]
+                    st.markdown("### Detail venue terpilih")
+                    detail1, detail2, detail3 = st.columns(3)
+                    detail1.metric("Nama venue", str(selected_venue.get("nama_venue", "-")))
+                    detail2.metric(
+                        "Jumlah pertandingan",
+                        f"{int(selected_venue.get('jumlah_pertandingan', 0)):,}",
+                    )
+                    capacity = selected_venue.get("kapasitas_penonton")
+                    detail3.metric(
+                        "Kapasitas penonton",
+                        "Tidak tersedia" if pd.isna(capacity) else f"{capacity:,.0f}",
+                    )
+                    detail_cols = [
+                        col for col in [
+                            "nama_venue", "kecamatan", "kelurahan", "alamatlokasi",
+                            "luas_m2", "kapasitas_penonton", "jumlah_pertandingan",
+                            "latitude", "longitude",
+                        ] if col in selected_match.columns
+                    ]
+                    st.dataframe(selected_match[detail_cols], hide_index=True, use_container_width=True)
 
     display_cols = [
         col for col in [
