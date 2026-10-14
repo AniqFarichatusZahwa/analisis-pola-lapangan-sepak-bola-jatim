@@ -17,39 +17,64 @@ st.set_page_config(
 
 
 # ============================================================
-# SISTEM DESAIN DASHBOARD
+# SISTEM DESAIN DASHBOARD — INSPIRED BY BLUE/GOLD EAST JAVA IDENTITY
 # ============================================================
+# Warna diambil sebagai interpretasi visual dari referensi pengguna,
+# bukan palet resmi Pemerintah Provinsi Jawa Timur.
 PALETTE = {
-    "forest": "#176447",
-    "deep": "#102F26",
-    "teal": "#2F8F83",
-    "lime": "#B7E36A",
-    "gold": "#E6B957",
-    "coral": "#EF8068",
-    "blue": "#5A8DEE",
-    "ink": "#21372F",
-    "muted": "#728078",
-    "grid": "#E7EEE8",
+    "forest": "#1757A6",  # biru utama untuk grafik
+    "deep": "#102A5E",    # navy
+    "teal": "#247DB6",    # biru sekunder
+    "lime": "#F2C14E",    # aksen emas
+    "gold": "#F2C14E",    # aksen emas
+    "coral": "#C44D5E",   # aksen merah untuk pembeda
+    "blue": "#72B7F2",    # biru muda
+    "ink": "#1D2C46",     # teks utama
+    "muted": "#6B7890",   # teks sekunder
+    "grid": "#E2E9F3",    # garis grid
 }
 CHART_COLORS = [PALETTE["forest"], PALETTE["teal"], PALETTE["gold"], PALETTE["coral"], PALETTE["blue"]]
+
+# Logo proyek berbentuk perisai olahraga, dibuat khusus untuk dashboard ini.
+# Bukan logo resmi pemerintah atau federasi sepak bola.
+LOGO_SVG = """
+<svg viewBox="0 0 100 112" role="img" aria-label="Logo Lapangan Jatim" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 5 L88 19 L84 59 Q78 84 50 105 Q22 84 16 59 L12 19 Z" fill="#163B7A" stroke="#F2C14E" stroke-width="4"/>
+  <path d="M25 31 Q50 20 75 31" fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".8"/>
+  <circle cx="50" cy="48" r="17" fill="#FFFFFF" stroke="#F2C14E" stroke-width="2.5"/>
+  <path d="M50 38 L59 44 L56 55 L44 55 L41 44 Z" fill="#163B7A"/>
+  <path d="M50 31 L50 38 M65 41 L59 44 M61 61 L56 55 M39 61 L44 55 M35 41 L41 44" stroke="#163B7A" stroke-width="2.5" fill="none"/>
+  <path d="M29 73 H71 M33 80 H67 M40 87 H60" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity=".95"/>
+</svg>
+"""
 
 st.markdown(
     """
     <style>
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
 
-    :root { --forest: #176447; --deep: #102F26; --lime: #B7E36A; --ink: #21372F; }
+    :root {
+      --navy: #102A5E;
+      --royal: #1757A6;
+      --royal-light: #2875C7;
+      --sky: #72B7F2;
+      --gold: #F2C14E;
+      --ink: #1D2C46;
+      --muted: #6B7890;
+      --canvas: #F3F6FB;
+      --line: #E2E9F3;
+    }
     html, body, [class*="css"] { font-family: 'DM Sans', 'Segoe UI', sans-serif; }
-    [data-testid="stAppViewContainer"] { background: #F4F7F3; color: var(--ink); }
-    [data-testid="stHeader"] { background: rgba(244,247,243,.92); }
-    [data-testid="stMainBlockContainer"] { padding-top: 1.8rem; padding-bottom: 3rem; max-width: 1550px; }
-    h1, h2, h3 { font-family: 'Manrope', 'DM Sans', sans-serif !important; color: #1D352A; letter-spacing: -0.035em; }
-    h2 { font-size: 1.42rem !important; margin-top: 1.2rem !important; }
+    [data-testid="stAppViewContainer"] { background: var(--canvas); color: var(--ink); }
+    [data-testid="stHeader"] { background: rgba(243,246,251,.96); }
+    [data-testid="stMainBlockContainer"] { padding-top: 1.4rem; padding-bottom: 3rem; max-width: 1580px; }
+    h1, h2, h3 { font-family: 'Manrope', 'DM Sans', sans-serif !important; color: var(--navy); letter-spacing: -.03em; }
+    h2 { font-size: 1.42rem !important; margin-top: 1.15rem !important; }
     h3 { font-size: 1.12rem !important; }
-    p, label, .stCaption { color: #617068; }
+    p, label, .stCaption { color: var(--muted); }
 
-    /* Sidebar: dark green navigation panel */
-    [data-testid="stSidebar"] { background: linear-gradient(165deg, #102F26 0%, #174B39 60%, #1B5841 100%); }
+    /* Sidebar bergaya portal institusi: navy dengan aksen emas */
+    [data-testid="stSidebar"] { background: linear-gradient(165deg, #102A5E 0%, #153D7D 58%, #1D5599 100%); }
     [data-testid="stSidebar"] > div:first-child { background: transparent; }
     [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p,
     [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] strong,
@@ -57,45 +82,57 @@ st.markdown(
     [data-testid="stSidebar"] h1,
     [data-testid="stSidebar"] h2,
     [data-testid="stSidebar"] h3,
-    [data-testid="stSidebar"] [data-testid="stCaptionContainer"] { color: #F3F8F3 !important; }
-    [data-testid="stSidebar"] [data-testid="stRadio"] label { padding: .22rem .1rem; }
-    [data-testid="stSidebar"] input[type="radio"] { accent-color: #B7E36A; }
+    [data-testid="stSidebar"] [data-testid="stCaptionContainer"] { color: #F4F7FC !important; }
+    [data-testid="stSidebar"] [data-testid="stRadio"] label { padding: .24rem .1rem; }
+    [data-testid="stSidebar"] input[type="radio"] { accent-color: var(--gold); }
     [data-testid="stSidebar"] [data-baseweb="select"] > div { border-radius: 12px; }
-    [data-testid="stSidebar"] [data-baseweb="tag"] { background: #B7E36A !important; border: 0 !important; }
-    [data-testid="stSidebar"] [data-baseweb="tag"] span { color: #16382A !important; font-weight: 600; }
-    [data-testid="stSidebar"] hr { border-color: rgba(255,255,255,.2); }
-    .sidebar-brand { padding: .35rem 0 1.15rem 0; border-bottom: 1px solid rgba(255,255,255,.19); margin-bottom: 1.2rem; }
-    .sidebar-brand-line { display:flex; align-items:center; gap:.65rem; color:#F6FAF6; font-weight:800; font-size:1.14rem; letter-spacing:-.03em; }
-    .sidebar-ball { display:inline-flex; width:38px; height:38px; align-items:center; justify-content:center; background:rgba(183,227,106,.15); border:1px solid rgba(183,227,106,.38); border-radius:13px; font-size:1.35rem; }
-    .sidebar-small { color:#BBD1C4; font-size:.77rem; margin-top:.45rem; letter-spacing:.06em; text-transform:uppercase; }
+    [data-testid="stSidebar"] [data-baseweb="tag"] { background: var(--gold) !important; border: 0 !important; }
+    [data-testid="stSidebar"] [data-baseweb="tag"] span { color: var(--navy) !important; font-weight: 700; }
+    [data-testid="stSidebar"] hr { border-color: rgba(255,255,255,.22); }
+    .sidebar-brand { padding: .35rem 0 1.15rem 0; border-bottom: 1px solid rgba(255,255,255,.22); margin-bottom: 1.2rem; }
+    .sidebar-brand-line { display:flex; align-items:center; gap:.72rem; color:#FFFFFF; font-weight:800; font-size:1.08rem; letter-spacing:-.025em; }
+    .brand-logo-small { display:inline-flex; width:43px; min-width:43px; align-items:center; justify-content:center; }
+    .brand-logo-small svg { width:42px; height:48px; display:block; }
+    .sidebar-small { color:#C8D8F0; font-size:.72rem; margin-top:.45rem; margin-left:3.45rem; letter-spacing:.105em; text-transform:uppercase; }
 
-    /* Main hero */
-    .hero-header { position:relative; overflow:hidden; padding:2rem 2.1rem 1.9rem; border-radius:26px; margin-bottom:1.35rem;
-        background: radial-gradient(circle at 90% 18%, rgba(183,227,106,.22), transparent 24%), linear-gradient(120deg, #102F26 0%, #176447 62%, #21785A 100%);
-        box-shadow: 0 12px 28px rgba(20,75,52,.13); }
-    .hero-kicker { display:inline-block; padding:.34rem .7rem; border:1px solid rgba(218,245,178,.34); background:rgba(183,227,106,.12); border-radius:999px; color:#D9F5AC; font-size:.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; margin-bottom:.85rem; }
-    .hero-title { color:#FFFFFF; font-family:'Manrope','DM Sans',sans-serif; font-size:clamp(1.65rem, 3vw, 2.55rem); line-height:1.18; font-weight:800; letter-spacing:-.045em; margin:0; max-width:950px; }
-    .hero-subtitle { color:#D4E4DA; font-size:1rem; line-height:1.6; margin:.8rem 0 0; max-width:920px; }
-    .hero-foot { display:flex; flex-wrap:wrap; gap:.55rem; margin-top:1.2rem; }
-    .hero-tag { color:#EFF7F0; border:1px solid rgba(255,255,255,.2); background:rgba(255,255,255,.07); border-radius:999px; padding:.38rem .68rem; font-size:.78rem; }
+    /* Banner utama: navy/royal blue, logo proyek, aksen emas */
+    .hero-header { position:relative; overflow:hidden; padding:1.7rem 2rem 1.8rem; border-radius:8px; margin-bottom:1.35rem;
+        background: radial-gradient(circle at 91% 12%, rgba(114,183,242,.27), transparent 23%),
+                    radial-gradient(circle at 80% 120%, rgba(242,193,78,.15), transparent 28%),
+                    linear-gradient(118deg, #102A5E 0%, #174A92 57%, #1D62AF 100%);
+        box-shadow: 0 12px 28px rgba(16,42,94,.15); }
+    .hero-header:after { content:''; position:absolute; width:340px; height:340px; border:1px solid rgba(255,255,255,.12); border-radius:50%; right:-95px; top:-155px; box-shadow:0 0 0 28px rgba(255,255,255,.025),0 0 0 56px rgba(255,255,255,.02); pointer-events:none; }
+    .hero-brand-row { position:relative; z-index:1; display:flex; align-items:center; gap:.9rem; margin-bottom:1.15rem; }
+    .hero-logo { display:flex; align-items:center; justify-content:center; width:58px; min-width:58px; height:64px; }
+    .hero-logo svg { width:54px; height:61px; display:block; }
+    .hero-brand-title { color:#FFFFFF; font-weight:800; font-size:.91rem; letter-spacing:.13em; text-transform:uppercase; }
+    .hero-brand-subtitle { color:#C8D8F0; font-size:.78rem; margin-top:.16rem; }
+    .hero-kicker { position:relative; z-index:1; display:inline-block; padding:.34rem .7rem; border:1px solid rgba(242,193,78,.62); background:rgba(242,193,78,.12); border-radius:3px; color:#FFE5A1; font-size:.71rem; font-weight:800; letter-spacing:.13em; text-transform:uppercase; margin-bottom:.8rem; }
+    .hero-title { position:relative; z-index:1; color:#FFFFFF; font-family:'Manrope','DM Sans',sans-serif; font-size:clamp(1.65rem, 3vw, 2.5rem); line-height:1.18; font-weight:800; letter-spacing:-.04em; margin:0; max-width:1000px; }
+    .hero-subtitle { position:relative; z-index:1; color:#DBE7F8; font-size:.98rem; line-height:1.65; margin:.8rem 0 0; max-width:930px; }
+    .hero-foot { position:relative; z-index:1; display:flex; flex-wrap:wrap; gap:.55rem; margin-top:1.2rem; }
+    .hero-tag { color:#F6F8FC; border:1px solid rgba(255,255,255,.24); background:rgba(255,255,255,.08); border-radius:4px; padding:.4rem .7rem; font-size:.78rem; }
 
-    /* Metrics and visual containers */
-    [data-testid="stMetric"] { background:#FFFFFF; border:1px solid #E2EAE2; padding:1.05rem 1.15rem; border-radius:19px; box-shadow:0 5px 16px rgba(28,61,44,.045); min-height:112px; }
-    [data-testid="stMetricLabel"] { color:#68786E !important; font-size:.83rem !important; font-weight:600 !important; }
-    [data-testid="stMetricValue"] { color:#173F30 !important; font-family:'Manrope','DM Sans',sans-serif; font-weight:800; letter-spacing:-.045em; }
-    [data-testid="stPlotlyChart"] { background:#FFFFFF; padding:.45rem .55rem .2rem; border:1px solid #E5ECE5; border-radius:19px; box-shadow:0 5px 16px rgba(28,61,44,.035); }
-    [data-testid="stDataFrame"] { border:1px solid #E2EAE2; border-radius:16px; overflow:hidden; }
-    [data-testid="stDownloadButton"] button, [data-testid="stButton"] button { background:#176447; color:white; border:1px solid #176447; border-radius:12px; font-weight:700; padding:.55rem 1rem; transition:all .15s ease; }
-    [data-testid="stDownloadButton"] button:hover, [data-testid="stButton"] button:hover { background:#102F26; border-color:#102F26; color:white; }
-    [data-testid="stAlert"] { border-radius:14px; }
+    /* KPI, grafik, tabel, dan kontrol */
+    [data-testid="stMetric"] { background:#FFFFFF; border:1px solid #DCE5F2; border-top:3px solid var(--royal); padding:1.02rem 1.15rem; border-radius:8px; box-shadow:0 5px 17px rgba(16,42,94,.045); min-height:112px; }
+    [data-testid="stMetricLabel"] { color:#687892 !important; font-size:.83rem !important; font-weight:600 !important; }
+    [data-testid="stMetricValue"] { color:var(--navy) !important; font-family:'Manrope','DM Sans',sans-serif; font-weight:800; letter-spacing:-.04em; }
+    [data-testid="stPlotlyChart"] { background:#FFFFFF; padding:.45rem .55rem .2rem; border:1px solid #E1E8F2; border-radius:8px; box-shadow:0 5px 16px rgba(16,42,94,.035); }
+    [data-testid="stDataFrame"] { border:1px solid #DCE5F2; border-radius:8px; overflow:hidden; }
+    [data-testid="stDownloadButton"] button, [data-testid="stButton"] button { background:var(--royal); color:white; border:1px solid var(--royal); border-radius:6px; font-weight:700; padding:.55rem 1rem; transition:all .15s ease; }
+    [data-testid="stDownloadButton"] button:hover, [data-testid="stButton"] button:hover { background:var(--navy); border-color:var(--navy); color:white; }
+    [data-testid="stAlert"] { border-radius:8px; }
     [data-testid="stSelectbox"] [data-baseweb="select"] > div,
     [data-testid="stMultiSelect"] [data-baseweb="select"] > div,
-    [data-testid="stDateInput"] input { border-radius:12px; }
-    .section-note { color:#718078; font-size:.9rem; line-height:1.55; margin-top:-.3rem; margin-bottom:.65rem; }
-    .footer-note { color:#829087; font-size:.78rem; padding-top:1rem; }
+    [data-testid="stDateInput"] input { border-radius:8px; }
+    .section-note { color:#718098; font-size:.9rem; line-height:1.55; margin-top:-.3rem; margin-bottom:.65rem; }
+    .footer-note { color:#8190A6; font-size:.78rem; padding-top:1rem; border-top:1px solid #DFE7F2; margin-top:1.5rem; }
 
     @media (max-width: 760px) {
-      .hero-header { padding:1.35rem; border-radius:20px; }
+      .hero-header { padding:1.25rem; border-radius:8px; }
+      .hero-logo { width:47px; min-width:47px; }
+      .hero-logo svg { width:45px; height:51px; }
+      .hero-brand-title { font-size:.75rem; }
       [data-testid="stMetric"] { padding:.8rem; min-height:95px; }
       [data-testid="stMainBlockContainer"] { padding-left:1rem; padding-right:1rem; }
     }
@@ -104,22 +141,21 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
 def style_plotly(fig, height: int = 410):
-    """Apply consistent styling to all Plotly charts without changing their data."""
+    """Apply consistent blue-and-gold styling to Plotly charts without changing their data."""
     fig.update_layout(
         template="plotly_white",
         colorway=CHART_COLORS,
-        font={"family": "DM Sans, Segoe UI, sans-serif", "size": 12, "color": "#34483D"},
+        font={"family": "DM Sans, Segoe UI, sans-serif", "size": 12, "color": "#34435D"},
         paper_bgcolor="rgba(255,255,255,0)",
         plot_bgcolor="#FFFFFF",
         height=height,
         margin={"l": 18, "r": 18, "t": 24, "b": 24},
-        hoverlabel={"bgcolor": "#102F26", "font": {"color": "#FFFFFF", "size": 12}, "bordercolor": "#102F26"},
+        hoverlabel={"bgcolor": PALETTE["deep"], "font": {"color": "#FFFFFF", "size": 12}, "bordercolor": PALETTE["deep"]},
         legend={"bgcolor": "rgba(255,255,255,0)", "orientation": "h", "yanchor": "bottom", "y": 1.02, "xanchor": "left", "x": 0},
     )
-    fig.update_xaxes(showgrid=False, zeroline=False, linecolor="#DCE6DD", tickfont={"color": "#65766B"}, automargin=True)
-    fig.update_yaxes(showgrid=True, gridcolor="#E7EEE8", zeroline=False, linecolor="#DCE6DD", tickfont={"color": "#65766B"}, automargin=True)
+    fig.update_xaxes(showgrid=False, zeroline=False, linecolor="#DCE5F2", tickfont={"color": "#65748D"}, automargin=True)
+    fig.update_yaxes(showgrid=True, gridcolor="#E2E9F3", zeroline=False, linecolor="#DCE5F2", tickfont={"color": "#65748D"}, automargin=True)
     return fig
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -201,9 +237,9 @@ except Exception as exc:
 # FILTER GLOBAL
 # ============================================================
 st.sidebar.markdown(
-    """
+    f"""
     <div class="sidebar-brand">
-      <div class="sidebar-brand-line"><span class="sidebar-ball">⚽</span><span>Lapangan Jatim</span></div>
+      <div class="sidebar-brand-line"><span class="brand-logo-small">{LOGO_SVG}</span><span>Lapangan Jatim</span></div>
       <div class="sidebar-small">Sports venue analytics</div>
     </div>
     """,
@@ -281,9 +317,16 @@ activity_venues = get_activity_by_venue(filtered_events, venues)
 # HEADER
 # ============================================================
 st.markdown(
-    """
+    f"""
     <div class="hero-header">
-      <div class="hero-kicker">Sports Data Warehouse · Jawa Timur</div>
+      <div class="hero-brand-row">
+        <div class="hero-logo">{LOGO_SVG}</div>
+        <div>
+          <div class="hero-brand-title">Lapangan Jatim</div>
+          <div class="hero-brand-subtitle">Portal Analitik Sepak Bola · Jawa Timur</div>
+        </div>
+      </div>
+      <div class="hero-kicker">Data Warehouse · Sports Venue Intelligence</div>
       <div class="hero-title">Analisis Pola Pemanfaatan<br>Lapangan Sepak Bola Jawa Timur</div>
       <div class="hero-subtitle">Jelajahi aktivitas pertandingan, persebaran venue, kompetisi, dan karakteristik fasilitas dalam satu dashboard terintegrasi.</div>
       <div class="hero-foot">
@@ -437,8 +480,8 @@ elif page == "Peta Persebaran Venue":
             radius_max_pixels=16,
             pickable=True,
             auto_highlight=True,
-            get_fill_color=[183, 227, 106, 230],
-            get_line_color=[16, 47, 38, 220],
+            get_fill_color=[37, 112, 196, 235],
+            get_line_color=[242, 193, 78, 245],
             line_width_min_pixels=1,
         )
         deck = pdk.Deck(
@@ -456,7 +499,7 @@ elif page == "Peta Persebaran Venue":
                     "Pertandingan: {jumlah_pertandingan}<br/>"
                     "Kapasitas: {kapasitas_penonton}"
                 ),
-                "style": {"backgroundColor": "#102F26", "color": "white", "borderRadius": "10px", "padding": "10px"},
+                "style": {"backgroundColor": "#102A5E", "color": "white", "borderRadius": "8px", "padding": "10px", "border": "1px solid #F2C14E"},
             },
             map_style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
         )
