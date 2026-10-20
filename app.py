@@ -169,18 +169,37 @@ PROJECT_DIR = BASE_DIR if (BASE_DIR / "shared_catalog.ducklake").exists() else B
 CATALOG_PATH = PROJECT_DIR / "shared_catalog.ducklake"
 
 
+
 @st.cache_data(show_spinner="Memuat data dari DuckLake...")
 def load_data(catalog_path: str):
     """Membaca tabel fakta, dimensi, dan data mart langsung dari DuckLake."""
     con = duckdb.connect()
     try:
         con.execute("LOAD ducklake")
+
         catalog = Path(catalog_path).resolve().as_posix().replace("'", "''")
-        con.execute(f"ATTACH 'ducklake:{catalog}' AS lake (READ_ONLY)")
+        storage = (
+            Path(__file__).resolve().parent / "lakehouse_storage"
+        ).resolve().as_posix().replace("'", "''")
+
+        con.execute(
+            f"""
+            ATTACH 'ducklake:{catalog}' AS lake (
+                DATA_PATH '{storage}',
+                OVERRIDE_DATA_PATH true,
+                READ_ONLY
+            )
+            """
+        )
 
         # Fact dan dimension tetap dipakai untuk filter tanggal/kompetisi.
-        events = con.execute("SELECT * FROM lake.analytics.fact_event").fetchdf()
-        venues = con.execute("SELECT * FROM lake.fasilitas.dim_venue").fetchdf()
+        events = con.execute(
+            "SELECT * FROM lake.analytics.fact_event"
+        ).fetchdf()
+
+        venues = con.execute(
+            "SELECT * FROM lake.fasilitas.dim_venue"
+        ).fetchdf()
 
         # Data mart dipakai untuk ringkasan aktivitas, kompetisi, dan fasilitas.
         mart_activity = con.execute(
