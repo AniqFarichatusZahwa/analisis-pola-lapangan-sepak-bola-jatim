@@ -56,7 +56,6 @@ Analisis diarahkan untuk menjawab pertanyaan seperti:
 - Bagaimana pola persebaran venue berdasarkan jumlah pertandingan dan karakteristik fasilitas melalui peta interaktif?
 - Bagaimana integrasi data dari berbagai sumber dapat membantu menghasilkan informasi yang lebih terstruktur mengenai aktivitas pertandingan dan fasilitas sepak bola di Jawa Timur?
 
-**Catatan:** Jumlah pertandingan merepresentasikan aktivitas yang tercatat dalam sumber dan kompetisi yang digunakan. Angka tersebut tidak serta-merta menggambarkan seluruh pemanfaatan lapangan sepak bola di Jawa Timur.
 
 ## Dataset
 
@@ -227,7 +226,7 @@ Sebagai contoh, pertandingan Piala Soeratin, Liga 1, dan AFF U-19 yang berlangsu
 
 Hasil integrasi membentuk dataset analitik yang memungkinkan penghitungan jumlah pertandingan berdasarkan venue dan kompetisi, analisis persebaran fasilitas, serta eksplorasi hubungan antara karakteristik fasilitas dan aktivitas pertandingan.
 
-Perlu diperhatikan bahwa data luas dan kapasitas tidak selalu tersedia untuk seluruh venue. Selain itu, data pertandingan hanya merepresentasikan kompetisi yang tercakup dalam sumber penelitian dan tidak menggambarkan seluruh aktivitas penggunaan lapangan sepak bola di Jawa Timur.
+Data luas dan kapasitas tidak selalu tersedia untuk seluruh venue. Selain itu, data pertandingan hanya merepresentasikan kompetisi yang tercakup dalam sumber penelitian dan tidak menggambarkan seluruh aktivitas penggunaan lapangan sepak bola di Jawa Timur.
 
 ## Arsitektur Data Warehousing
 
@@ -396,7 +395,7 @@ DuckLake
 
 Alur serupa diterapkan pada data Liga 1, AFF U-19, dan fasilitas lapangan. Proses ini membantu menjaga keterlacakan sumber data sekaligus mempermudah validasi sebelum integrasi.
 
-## 🦆 DuckLake
+## DuckLake
 
 Data yang telah melalui proses pembersihan dan transformasi kemudian diintegrasikan ke dalam satu lingkungan DuckLake sebagai penyimpanan data analitik terpusat.
 
