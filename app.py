@@ -313,7 +313,7 @@ st.markdown(
           <div class="hero-brand-subline">Portal Analitik Sepak Bola</div>
         </div>
       </div>
-      <div class="hero-title">Analisis Pola Pemanfaatan<br>Lapangan Sepak Bola Jawa Timur</div>
+      <div class="hero-title">Pola Pemanfaatan<br>Lapangan Sepak Bola Jawa Timur</div>
       <div class="hero-subtitle">Jelajahi aktivitas pertandingan, persebaran venue, kompetisi, dan karakteristik fasilitas dalam satu dashboard terintegrasi.</div>
       <div class="hero-foot">
         <span class="hero-tag">⚽ Soeratin</span>
